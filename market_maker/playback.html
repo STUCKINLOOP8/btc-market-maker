@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixel Market Maker // BTC/USDT Terminal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/playback.css?v=synthwave-neutral-1">
+  <script src="/assets/playback.js?v=synthwave-neutral-1" type="module"></script>
+</head>
+<body>
+  <!-- Decorative Retro Synthwave Pixel Backdrop (isolated strictly in background) -->
+  <div class="synthwave-backdrop" aria-hidden="true" style="position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:-999; pointer-events:none; overflow:hidden; background:#060818;">
+    <div class="pixel-stars"></div>
+    <div class="pixel-clouds"></div>
+    <div class="perspective-horizon"></div>
+    <div class="perspective-grid"></div>
+  </div>
+
+  <main style="position:relative; z-index:1;">
+    <!-- Retro Synthwave Terminal Header -->
+    <header class="page-header">
+      <div class="brand-container">
+        <!-- Original Pixel Art Logo -->
+        <div class="pixel-logo" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 12 12" fill="none">
+            <rect x="1" y="1" width="10" height="10" fill="#080e2a"/>
+            <rect x="3" y="2" width="5" height="1" fill="#00f0ff"/>
+            <rect x="2" y="3" width="1" height="6" fill="#00f0ff"/>
+            <rect x="8" y="3" width="1" height="6" fill="#00f0ff"/>
+            <rect x="3" y="9" width="5" height="1" fill="#00f0ff"/>
+            <rect x="4" y="4" width="3" height="4" fill="#ff2a85"/>
+            <rect x="5" y="5" width="2" height="2" fill="#ffe600"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>BTC/USDT <span>Trading Terminal</span> <span class="magenta-script">Synthwave</span></h1>
+          <div class="brand-links">
+            <span id="mode-badge" class="mode-badge" data-mode="replay">REPLAY</span>
+            <div id="feed-pill" class="feed-pill" data-health="ready">
+              <span class="feed-dot"></span>
+              <span id="feed-health" aria-live="polite">Healthy</span>
+              <span id="feed-age" title="Time since the last synchronized book update">0 ms</span>
+            </div>
+            <a href="/about" class="nav-about-link">ABOUT // GUIDE</a>
+          </div>
+        </div>
+      </div>
+
+      <dl class="status-bar">
+        <div><dt>Status</dt><dd id="status" aria-live="polite">Connecting</dd></div>
+        <div><dt>Strategy</dt><dd id="active-strategy">—</dd></div>
+        <div><dt>Elapsed time</dt><dd id="time">—</dd></div>
+        <div><dt>Inputs processed</dt><dd id="position">0</dd></div>
+        <div><dt>Audit entries</dt><dd id="audit">0</dd></div>
+      </dl>
+    </header>
+
+    <!-- Controls Panel: Setup & Run Groups -->
+    <section class="panel session" aria-label="Trading controls">
+      <div class="controls-wrapper">
+        <!-- Setup Group -->
+        <fieldset class="control-group">
+          <legend>// SETUP //</legend>
+          <form id="load">
+            <label>Data source
+              <select name="mode">
+                <option value="replay">Saved recording</option>
+                <option value="live">Live Binance · paper</option>
+                <option value="exchange">Binance Spot Testnet</option>
+              </select>
+            </label>
+            <label id="recording-field">Recording path
+              <input name="recording" value="binance-btcusdt-milestone2.jsonl" required>
+            </label>
+            <label>Strategy
+              <select name="strategy">
+                <option value="">Scripted orders</option>
+                <option value="fixed-spread">Fixed spread</option>
+                <option value="avellaneda-stoikov">Avellaneda–Stoikov</option>
+                <option value="avellaneda-stoikov-imbalance">Avellaneda–Stoikov + imbalance</option>
+              </select>
+            </label>
+            <label id="script-field">Order script path (optional)
+              <input name="orders" value="binance-btcusdt-milestone2-orders.json">
+            </label>
+            <label class="quote-setting" hidden>Spread (USDT)
+              <input name="spread_usdt" type="number" min="0" step="any" value="100" required disabled>
+            </label>
+            <label class="quote-setting" hidden>Order size (BTC)
+              <input name="quote_size_btc" type="number" min="0" step="any" value="0.001" required disabled>
+            </label>
+            <label class="exchange-setting" hidden>Max per order (USDT)
+              <input name="max_order_usdt" type="number" min="0" step="any" inputmode="decimal" required disabled>
+            </label>
+            <label class="exchange-setting" hidden>Max session drawdown (USDT)
+              <input name="max_drawdown_usdt" type="number" min="0" step="any" inputmode="decimal" required disabled>
+            </label>
+            <label class="exchange-setting" hidden><span id="exchange-confirm-label">Confirm environment</span>
+              <input name="exchange_confirmation" autocomplete="off" required disabled>
+            </label>
+            <p id="exchange-notice" hidden></p>
+            <button id="load-button" class="primary">Load recording</button>
+          </form>
+        </fieldset>
+
+        <!-- Run Group -->
+        <fieldset class="control-group">
+          <legend>// RUN //</legend>
+          <div class="run-controls-strip">
+            <!-- Replay Controls (Shown in Replay mode, hidden in Live mode) -->
+            <div id="replay-controls" class="replay-controls">
+              <button id="play" disabled>Play</button>
+              <button id="pause" disabled>Pause</button>
+              <button id="step" disabled>Step</button>
+              <label>Speed (&times;) <input id="speed" type="number" min="0.1" max="100" step="any" value="1" required></label>
+            </div>
+
+            <!-- HALT Module: Large, Always Visible, Distinct Red with Bright Border -->
+            <div class="halt-module">
+              <button id="halt" class="halt-button" disabled>Halt</button>
+              <div class="halt-info">
+                <div class="halt-stat-item">
+                  <dt>Unresolved orders</dt>
+                  <dd id="halt-unresolved">0</dd>
+                </div>
+                <div class="halt-stat-item">
+                  <dt>Remaining BTC</dt>
+                  <dd id="halt-btc">—</dd>
+                </div>
+                <div class="halt-stat-item">
+                  <dt>BTC vs target</dt>
+                  <dd id="halt-inventory">—</dd>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+
+      <!-- Live summary and reason fields (managed by JS) -->
+      <dl class="status-bar live-summary" id="live-summary" hidden>
+        <div><dt>Working bid</dt><dd id="paper-bid">—</dd></div>
+        <div><dt>Working ask</dt><dd id="paper-ask">—</dd></div>
+        <div><dt>Latest fill</dt><dd id="last-fill">—</dd></div>
+        <div id="feed-reason-field" hidden><dt>Feed interruption</dt><dd id="feed-reason">—</dd></div>
+      </dl>
+      <dl class="status-bar halt-summary" id="halt-summary" hidden></dl>
+      <p id="notice" role="alert" hidden></p>
+    </section>
+
+    <!-- Workspace Layout -->
+    <div class="workspace">
+      <!-- Top Left: Portfolio Equity with Promoted Headline Tiles Strip -->
+      <section class="panel portfolio">
+        <!-- Four Promoted Headline Tiles -->
+        <dl class="headline-strip">
+          <div class="headline-tile">
+            <dt>Net P&amp;L after fees</dt>
+            <dd id="net-pnl">—</dd>
+          </div>
+          <div class="headline-tile">
+            <dt>Excess P&amp;L vs hold</dt>
+            <dd id="excess-pnl">—</dd>
+          </div>
+          <div class="headline-tile">
+            <dt>Inventory vs target</dt>
+            <dd id="inventory">—</dd>
+          </div>
+          <div class="headline-tile">
+            <dt>Filled volume</dt>
+            <dd id="volume">—</dd>
+          </div>
+        </dl>
+
+        <div class="panel-heading">
+          <h2>Portfolio equity</h2>
+          <span class="unit">USDT</span>
+        </div>
+        <dl class="legend">
+          <div><dt><span class="swatch equity-swatch"></span><span id="equity-label">Paper equity</span></dt><dd id="equity">—</dd></div>
+          <div><dt><span class="swatch hold-swatch"></span>Buy-and-hold</dt><dd id="hold">—</dd></div>
+        </dl>
+        <div class="chart">
+          <canvas id="equity-chart" role="img" aria-label="Equity and buy-and-hold equity over time"></canvas>
+          <p id="chart-empty">Waiting for midpoint to initialize equity curve...</p>
+        </div>
+        <div class="chart-excess-strip">
+          <span class="excess-label">EXCESS P&amp;L VS HOLD</span>
+          <span id="chart-excess-val" class="excess-val" aria-live="polite">— USDT</span>
+        </div>
+      </section>
+
+      <!-- Top Right: Depth Ladder with Working Bid/Ask Marked -->
+      <section class="panel depth">
+        <div class="panel-heading">
+          <h2>Depth ladder</h2>
+          <span id="midpoint" class="unit">Midpoint —</span>
+        </div>
+        <p id="depth-empty" class="empty">Applying buffered updates & fetching snapshot...</p>
+        <div id="depth-tables" class="depth-tables" hidden>
+          <div class="depth-scroll">
+            <table aria-label="Bids, highest price first">
+              <thead><tr><th scope="col"><span class="bid-label">▲</span> Bid (USDT)</th><th scope="col">Size (BTC)</th></tr></thead>
+              <tbody id="bids"></tbody>
+            </table>
+          </div>
+          <div class="depth-scroll">
+            <table aria-label="Asks, lowest price first">
+              <thead><tr><th scope="col"><span class="ask-label">▼</span> Ask (USDT)</th><th scope="col">Size (BTC)</th></tr></thead>
+              <tbody id="asks"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Left: Paper Wallet with Stacked Bars -->
+      <section class="panel wallet">
+        <div class="panel-heading"><h2 id="wallet-heading">Paper wallet</h2></div>
+        
+        <!-- Stacked Bar Allocation Visualizer -->
+        <div class="wallet-bars">
+          <div class="wallet-legend">
+            <span class="legend-item"><span class="swatch bar-available-btc"></span> Available</span>
+            <span class="legend-item"><span class="swatch bar-reserved-btc"></span> Reserved</span>
+          </div>
+          <div class="stacked-bar-container">
+            <div class="stacked-bar-header">
+              <span class="asset-name">BTC ALLOCATION</span>
+              <span id="btc-bar-ratio" class="asset-ratio">Available 0.5 · Reserved 0</span>
+            </div>
+            <div class="stacked-bar" role="progressbar" aria-label="BTC Available vs Reserved">
+              <div id="btc-bar-avail" class="bar-slice bar-available-btc" style="width: 100%" title="Available BTC"></div>
+              <div id="btc-bar-res" class="bar-slice bar-reserved-btc" style="width: 0%" title="Reserved BTC"></div>
+            </div>
+          </div>
+          <div class="stacked-bar-container">
+            <div class="stacked-bar-header">
+              <span class="asset-name">USDT ALLOCATION</span>
+              <span id="usdt-bar-ratio" class="asset-ratio">Available 0 · Reserved 0</span>
+            </div>
+            <div class="stacked-bar" role="progressbar" aria-label="USDT Available vs Reserved">
+              <div id="usdt-bar-avail" class="bar-slice bar-available-usdt" style="width: 100%" title="Available USDT"></div>
+              <div id="usdt-bar-res" class="bar-slice bar-reserved-usdt" style="width: 0%" title="Reserved USDT"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">Asset</th><th scope="col">Total</th><th scope="col">Available</th><th scope="col">Reserved</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">BTC</th><td id="btc-total">—</td><td id="btc-available">—</td><td id="btc-reserved">—</td></tr>
+              <tr><th scope="row">USDT</th><td id="usdt-total">—</td><td id="usdt-available">—</td><td id="usdt-reserved">—</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Bottom Right: Order Timeline with More Width & Right-Side Inspector -->
+      <section class="panel timeline" id="timeline">
+        <!-- Paper Orders Subpanel (Placed here to eliminate horizontal scrolling) -->
+        <div class="orders-section">
+          <div class="panel-heading">
+            <h3 id="orders-heading">Paper orders</h3>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead><tr>
+                <th scope="col">Order</th><th scope="col">Side</th><th scope="col">Status</th>
+                <th scope="col">Price (USDT)</th><th scope="col">Size (BTC)</th>
+                <th scope="col">Filled (BTC)</th><th scope="col">Queue ahead</th>
+              </tr></thead>
+              <tbody id="order-rows"></tbody>
+            </table>
+          </div>
+          <p id="orders-empty" class="empty">Waiting for strategy to generate quotes...</p>
+        </div>
+
+        <div class="panel-heading timeline-header">
+          <h2>Order timeline</h2>
+          <button id="timeline-all" type="button" hidden>Show all orders</button>
+        </div>
+        <div class="timeline-body">
+          <div class="timeline-stream-container">
+            <ol id="timeline-events" class="timeline-events" aria-label="Order events"></ol>
+            <p id="timeline-empty" class="empty">No order events recorded yet.</p>
+          </div>
+          <div class="inspector" id="timeline-inspector" aria-labelledby="inspector-heading">
+            <h3 id="inspector-heading">Event details</h3>
+            <p id="inspector-empty" class="empty">Click an event to see quote inputs, queue position and fills.</p>
+            <div id="inspector-content" hidden>
+              <dl id="inspector-details" class="inspector-details"></dl>
+              <h4>Wallet changes</h4>
+              <p id="inspector-wallet-empty" class="empty">No balance changes.</p>
+              <div class="table-scroll">
+                <table id="inspector-wallet" hidden>
+                  <thead><tr><th scope="col">Balance</th><th scope="col">Before</th><th scope="col">After</th></tr></thead>
+                  <tbody id="inspector-wallet-rows"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About // Pixel Market Maker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/playback.css?v=synthwave-neutral-1">
+  <link rel="stylesheet" href="/assets/about.css?v=synthwave-neutral-1">
+</head>
+<body>
+  <!-- Decorative Retro Synthwave Pixel Backdrop -->
+  <div class="synthwave-backdrop" aria-hidden="true">
+    <div class="pixel-stars"></div>
+    <div class="pixel-clouds"></div>
+    <div class="perspective-horizon"></div>
+    <div class="perspective-grid"></div>
+  </div>
+
+  <div class="landing-container">
+    <!-- Top Nav -->
+    <nav class="landing-nav" aria-label="Main Navigation">
+      <a href="/about" class="landing-brand">
+        <div class="pixel-logo" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 12 12" fill="none">
+            <rect x="1" y="1" width="10" height="10" fill="#080e2a"/>
+            <rect x="3" y="2" width="5" height="1" fill="#00f0ff"/>
+            <rect x="2" y="3" width="1" height="6" fill="#00f0ff"/>
+            <rect x="8" y="3" width="1" height="6" fill="#00f0ff"/>
+            <rect x="3" y="9" width="5" height="1" fill="#00f0ff"/>
+            <rect x="4" y="4" width="3" height="4" fill="#ff2a85"/>
+            <rect x="5" y="5" width="2" height="2" fill="#ffe600"/>
+          </svg>
+        </div>
+        <span class="landing-brand-name js-app-name">Pixel Market Maker</span>
+      </a>
+      <a href="/" class="primary terminal-nav-link">&gt;&gt; Open Terminal</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+      <div class="hero-title-wrap">
+        <h1 class="hero-title js-app-name">Pixel Market Maker</h1>
+        <span class="magenta-script">Synthwave</span>
+      </div>
+      <p class="hero-desc">
+        High-frequency crypto market making simulator and microstructural order book execution inspector in retro synthwave style.
+      </p>
+
+      <!-- Pixel Art Illustration: Sliced Sun, Perspective Grid, Palms -->
+      <div class="hero-artwork-frame" aria-label="Pixel art landscape with striped synthwave sun, palm trees, and perspective grid">
+        <svg class="hero-artwork-svg" viewBox="0 0 800 360" preserveAspectRatio="xMidYMid meet" style="shape-rendering: crispEdges; image-rendering: pixelated;">
+          <defs>
+            <linearGradient id="hero-sun" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#ffe600"/>
+              <stop offset="40%" stop-color="#ff7700"/>
+              <stop offset="75%" stop-color="#ff0077"/>
+              <stop offset="100%" stop-color="#880055"/>
+            </linearGradient>
+            <linearGradient id="grid-fade" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.1"/>
+              <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.8"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Sky Stars -->
+          <g fill="#ffffff">
+            <rect x="80" y="30" width="3" height="3" fill="#00f0ff"/>
+            <rect x="190" y="55" width="2" height="2"/>
+            <rect x="320" y="25" width="3" height="3" fill="#ffe600"/>
+            <rect x="480" y="40" width="2" height="2"/>
+            <rect x="620" y="20" width="3" height="3" fill="#ff66b2"/>
+            <rect x="710" y="60" width="2" height="2"/>
+            <rect x="140" y="90" width="2" height="2"/>
+            <rect x="660" y="85" width="3" height="3" fill="#00ff9d"/>
+          </g>
+
+          <!-- Pixel Clouds -->
+          <g fill="#251a5c" opacity="0.6">
+            <rect x="120" y="70" width="120" height="12"/>
+            <rect x="140" y="62" width="70" height="10"/>
+            <rect x="540" y="60" width="150" height="14"/>
+            <rect x="580" y="52" width="80" height="10"/>
+          </g>
+
+          <!-- Striped Synthwave Pixel Sun -->
+          <g transform="translate(400, 200)">
+            <circle cx="0" cy="0" r="95" fill="url(#hero-sun)"/>
+            <!-- Pixel horizontal stripes -->
+            <rect x="-100" y="-12" width="200" height="3" fill="#0b0e2b"/>
+            <rect x="-100" y="6" width="200" height="5" fill="#0b0e2b"/>
+            <rect x="-100" y="26" width="200" height="7" fill="#0b0e2b"/>
+            <rect x="-100" y="48" width="200" height="10" fill="#0b0e2b"/>
+            <rect x="-100" y="72" width="200" height="13" fill="#0b0e2b"/>
+          </g>
+
+          <!-- Perspective Grid Surface -->
+          <g transform="translate(0, 200)">
+            <!-- Horizon Glow Line -->
+            <rect x="0" y="0" width="800" height="3" fill="#00f0ff"/>
+            <!-- Perspective Converging Lines -->
+            <polygon points="400,0 398,0 -200,160 -195,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 399,0 0,160 5,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 400,0 160,160 164,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 400,0 280,160 284,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 400,0 360,160 363,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 400,0 400,160 403,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 400,0 440,160 443,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 400,0 520,160 524,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 400,0 640,160 644,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 401,0 800,160 805,160" fill="url(#grid-fade)"/>
+            <polygon points="400,0 402,0 1000,160 1005,160" fill="url(#grid-fade)"/>
+            <!-- Horizontal Grid Lines with Geometric Perspective Spacing -->
+            <rect x="0" y="8" width="800" height="1" fill="#00f0ff" opacity="0.3"/>
+            <rect x="0" y="19" width="800" height="1" fill="#00f0ff" opacity="0.35"/>
+            <rect x="0" y="33" width="800" height="1.5" fill="#00f0ff" opacity="0.45"/>
+            <rect x="0" y="52" width="800" height="1.5" fill="#00f0ff" opacity="0.55"/>
+            <rect x="0" y="78" width="800" height="2" fill="#00f0ff" opacity="0.68"/>
+            <rect x="0" y="112" width="800" height="2.5" fill="#00f0ff" opacity="0.82"/>
+            <rect x="0" y="152" width="800" height="3" fill="#00f0ff"/>
+          </g>
+
+          <!-- Left Pixel Palm Trees -->
+          <g transform="translate(60, 100) scale(1.6)" fill="#040614">
+            <rect x="24" y="35" width="7" height="45"/>
+            <rect x="25" y="24" width="6" height="12"/>
+            <rect x="27" y="14" width="5" height="12"/>
+            <rect x="30" y="4" width="4" height="12"/>
+            <!-- Fronds -->
+            <rect x="6" y="0" width="28" height="4"/>
+            <rect x="0" y="4" width="18" height="4"/>
+            <rect x="32" y="0" width="28" height="4"/>
+            <rect x="42" y="4" width="18" height="4"/>
+            <rect x="16" y="-8" width="30" height="5"/>
+            <rect x="24" y="-14" width="14" height="6"/>
+          </g>
+
+          <!-- Right Pixel Palm Trees -->
+          <g transform="translate(680, 110) scale(1.5)" fill="#040614">
+            <rect x="25" y="35" width="7" height="45"/>
+            <rect x="24" y="24" width="6" height="12"/>
+            <rect x="22" y="14" width="5" height="12"/>
+            <rect x="20" y="4" width="4" height="12"/>
+            <!-- Fronds -->
+            <rect x="4" y="0" width="28" height="4"/>
+            <rect x="0" y="4" width="16" height="4"/>
+            <rect x="26" y="0" width="28" height="4"/>
+            <rect x="38" y="4" width="16" height="4"/>
+            <rect x="12" y="-8" width="30" height="5"/>
+            <rect x="18" y="-14" width="14" height="6"/>
+          </g>
+        </svg>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="hero-actions">
+        <a href="/" class="primary hero-btn">&gt;&gt; Open terminal</a>
+        <a href="/?replay=1" class="hero-btn secondary">&#9654; Watch a replay</a>
+      </div>
+    </header>
+
+    <!-- Scrolling Ticker Strip with Small Pixel Icons -->
+    <div class="ticker-strip" aria-label="Feature ticker">
+      <div class="ticker-track">
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><polygon points="5,0 1,6 5,6 4,10 9,4 5,4" fill="#ffe600"/></svg>
+          <span>Replay real Binance data</span>
+        </div>
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><rect x="1" y="2" width="8" height="6" fill="#00f0ff"/><rect x="3" y="4" width="1" height="2" fill="#050718"/><rect x="6" y="4" width="1" height="2" fill="#050718"/></svg>
+          <span>Paper trading</span>
+        </div>
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><polygon points="5,1 7,4 5,9 3,4" fill="#ff2a85"/></svg>
+          <span>Three strategies</span>
+        </div>
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><circle cx="4" cy="4" r="3" stroke="#00ff9d" stroke-width="1.5"/><line x1="6.5" y1="6.5" x2="9" y2="9" stroke="#00ff9d" stroke-width="1.5"/></svg>
+          <span>Inspect every order</span>
+        </div>
+
+        <!-- Repeated for seamless infinite scroll -->
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><polygon points="5,0 1,6 5,6 4,10 9,4 5,4" fill="#ffe600"/></svg>
+          <span>Replay real Binance data</span>
+        </div>
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><rect x="1" y="2" width="8" height="6" fill="#00f0ff"/><rect x="3" y="4" width="1" height="2" fill="#050718"/><rect x="6" y="4" width="1" height="2" fill="#050718"/></svg>
+          <span>Paper trading</span>
+        </div>
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><polygon points="5,1 7,4 5,9 3,4" fill="#ff2a85"/></svg>
+          <span>Three strategies</span>
+        </div>
+        <div class="ticker-item">
+          <svg viewBox="0 0 10 10" fill="none"><circle cx="4" cy="4" r="3" stroke="#00ff9d" stroke-width="1.5"/><line x1="6.5" y1="6.5" x2="9" y2="9" stroke="#00ff9d" stroke-width="1.5"/></svg>
+          <span>Inspect every order</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <section class="landing-section">
+      <div class="section-header">
+        <span class="section-tag">// ARCHITECTURE //</span>
+        <h2 class="section-title">How it works</h2>
+      </div>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <span class="step-num-badge">STEP 01</span>
+          <h3 class="step-title">Watch the market</h3>
+          <p class="step-desc">
+            Stream microsecond-sequenced Binance depth updates and live public trades to reconstruct a synchronized Level 2 order book with zero data loss.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <span class="step-num-badge">STEP 02</span>
+          <h3 class="step-title">Post a bid and ask</h3>
+          <p class="step-desc">
+            Calculate reservation fair value, apply inventory skew, and continuously place optimal two-sided limit quotes around the prevailing midpoint.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <span class="step-num-badge">STEP 03</span>
+          <h3 class="step-title">Simulate fills and fees</h3>
+          <p class="step-desc">
+            Model accurate FIFO queue priority ahead of your orders, partial fills from incoming trades, and real maker fee deductions with wallet reservation tracking.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card">
+          <span class="step-num-badge">STEP 04</span>
+          <h3 class="step-title">Inspect every order</h3>
+          <p class="step-desc">
+            Deeply audit the lifecycle of each order down to the exact millisecond, including queue advancement, partial executions, cancellations, and skip reasons.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Three Strategies Section -->
+    <section class="landing-section">
+      <div class="section-header">
+        <span class="section-tag">// ALGORITHMS //</span>
+        <h2 class="section-title">The three strategies</h2>
+      </div>
+
+      <div class="strategies-grid">
+        <!-- Strategy 1: Fixed spread -->
+        <div class="strategy-card" data-strat="fixed">
+          <div class="strategy-icon">
+            <svg width="24" height="24" viewBox="0 0 12 12" fill="none">
+              <rect x="2" y="3" width="8" height="2" fill="#00f0ff"/>
+              <rect x="5" y="5" width="2" height="4" fill="#00f0ff"/>
+              <rect x="3" y="7" width="6" height="2" fill="#00f0ff"/>
+            </svg>
+          </div>
+          <h3 class="strategy-name">Fixed spread</h3>
+          <p class="strategy-desc">
+            Places symmetric buy and sell limit orders at a fixed dollar spread around the current order book midpoint.
+          </p>
+        </div>
+
+        <!-- Strategy 2: Avellaneda-Stoikov -->
+        <div class="strategy-card" data-strat="as">
+          <div class="strategy-icon">
+            <svg width="24" height="24" viewBox="0 0 12 12" fill="none">
+              <polygon points="6,1 11,10 1,10" stroke="#ff2a85" stroke-width="1.5" fill="none"/>
+              <rect x="5" y="5" width="2" height="3" fill="#ff2a85"/>
+            </svg>
+          </div>
+          <h3 class="strategy-name">Avellaneda-Stoikov</h3>
+          <p class="strategy-desc">
+            Dynamically shifts bid and ask quotes based on current inventory deviation and asset volatility to drive inventory back to target.
+          </p>
+        </div>
+
+        <!-- Strategy 3: Avellaneda-Stoikov with order-book imbalance -->
+        <div class="strategy-card" data-strat="as-imb">
+          <div class="strategy-icon">
+            <svg width="24" height="24" viewBox="0 0 12 12" fill="none">
+              <rect x="1" y="2" width="4" height="8" fill="#ffe600"/>
+              <rect x="7" y="5" width="4" height="5" fill="#ff7700"/>
+            </svg>
+          </div>
+          <h3 class="strategy-name">Avellaneda-Stoikov with order-book imbalance</h3>
+          <p class="strategy-desc">
+            Enhances the inventory model by factoring in immediate depth imbalance between top bid and ask volumes to predict short-term price drift.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prominent Simulation Notice -->
+    <aside class="simulation-note-banner" role="note">
+      <div class="note-icon" aria-hidden="true">&#9888;</div>
+      <div class="note-text">
+        <h3>SIMULATION ENVIRONMENT NOTICE</h3>
+        <p>All funds are simulated, results are not predictions.</p>
+      </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="landing-footer">
+      <div class="footer-left">
+        <p class="footer-copy">&copy; 2026 Pixel Market Maker // Retro Synthwave Terminal</p>
+        <p class="footer-note">Simulated market data environment. No invented statistics, testimonials or prices.</p>
+      </div>
+      <a href="/" class="footer-link">&gt;&gt; Open terminal</a>
+    </footer>
+  </div>
+
+  <script>
+    // Placeholder application name in one variable
+    const APP_NAME = "Pixel Market Maker";
+    for (const el of document.querySelectorAll('.js-app-name')) {
+      el.textContent = APP_NAME;
+    }
+  </script>
+</body>
+</html>

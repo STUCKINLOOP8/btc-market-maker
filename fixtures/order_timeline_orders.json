@@ -1,0 +1,26 @@
+[
+  {
+    "type": "submit_order",
+    "timestamp_ms": 100,
+    "sequence": 1,
+    "order_id": "partial-bid",
+    "side": "buy",
+    "limit_price": "68448",
+    "quantity": "0.05"
+  },
+  {
+    "type": "cancel_order",
+    "timestamp_ms": 140,
+    "sequence": 2,
+    "order_id": "partial-bid"
+  },
+  {
+    "type": "submit_order",
+    "timestamp_ms": 145,
+    "sequence": 3,
+    "order_id": "over-cap-bid",
+    "side": "buy",
+    "limit_price": "68448",
+    "quantity": "0.30"
+  }
+]

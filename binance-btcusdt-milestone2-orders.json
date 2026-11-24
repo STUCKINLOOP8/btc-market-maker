@@ -1,0 +1,17 @@
+[
+  {
+    "type": "submit_order",
+    "timestamp_ms": 2222,
+    "sequence": 1,
+    "order_id": "milestone-2-bid",
+    "side": "buy",
+    "limit_price": "61174.04000000",
+    "quantity": "0.001"
+  },
+  {
+    "type": "cancel_order",
+    "timestamp_ms": 4222,
+    "sequence": 2,
+    "order_id": "milestone-2-bid"
+  }
+]

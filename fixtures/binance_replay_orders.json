@@ -1,0 +1,17 @@
+[
+  {
+    "type": "submit_order",
+    "timestamp_ms": 1491,
+    "sequence": 1,
+    "order_id": "sample-bid",
+    "side": "buy",
+    "limit_price": "61349.19",
+    "quantity": "0.001"
+  },
+  {
+    "type": "cancel_order",
+    "timestamp_ms": 2500,
+    "sequence": 2,
+    "order_id": "sample-bid"
+  }
+]

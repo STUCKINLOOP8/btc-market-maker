@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "dataset_id": "binance-spot-btcusdt-milestone-5-2026-11-24",
+  "status": "complete",
+  "venue": "Binance",
+  "market": "spot",
+  "symbol": "BTCUSDT",
+  "recording_format_version": 1,
+  "capture_settings": {
+    "duration_seconds": 180,
+    "nominal_start_spacing_seconds": 190,
+    "depth_timeout_seconds": 0.5,
+    "websocket": "wss://data-stream.binance.vision/stream?streams=btcusdt@depth@100ms/btcusdt@trade",
+    "depth_snapshot": "https://data-api.binance.vision/api/v3/depth?symbol=BTCUSDT&limit=5000",
+    "exchange_info": "https://data-api.binance.vision/api/v3/exchangeInfo?symbol=BTCUSDT"
+  },
+  "split_policy": "Chronological assignment fixed before capture. Use the first two sessions for development and the last two for held-out evaluation. No strategy results were used to select sessions.",
+  "capture_plan": [
+    {
+      "id": "btcusdt-01",
+      "split": "development",
+      "earliest_start_utc": "2026-11-23T21:41:37.596Z"
+    },
+    {
+      "id": "btcusdt-02",
+      "split": "development",
+      "earliest_start_utc": "2026-11-23T21:44:47.596Z"
+    },
+    {
+      "id": "btcusdt-03",
+      "split": "held_out",
+      "earliest_start_utc": "2026-11-23T21:47:57.596Z"
+    },
+    {
+      "id": "btcusdt-04",
+      "split": "held_out",
+      "earliest_start_utc": "2026-11-23T21:51:07.596Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "btcusdt-01",
+      "split": "development",
+      "earliest_start_utc": "2026-11-23T21:41:37.596Z",
+      "attempt": 1,
+      "recording": {
+        "path": "data/milestone-5/btcusdt-01.jsonl",
+        "bytes": 5879416,
+        "sha256": "fb7d94d1560f55e0b121bc42d19b43977c253bcc8062046dd07a7c755fb48671"
+      },
+      "market_filters": {
+        "path": "data/milestone-5/btcusdt-01-exchange-info.json",
+        "bytes": 5428,
+        "sha256": "903050ae6c0c75d5d3f1eea2bf3ae5dc8fe0c95b7d1bf728b530e91b13f9a206",
+        "retrieved_at_utc": "2026-11-23T21:41:38.393Z",
+        "limit_order_filters": {
+          "PRICE_FILTER": {
+            "filterType": "PRICE_FILTER",
+            "minPrice": "0.01000000",
+            "maxPrice": "1000000.00000000",
+            "tickSize": "0.01000000"
+          },
+          "LOT_SIZE": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.00001000",
+            "maxQty": "9000.00000000",
+            "stepSize": "0.00001000"
+          },
+          "NOTIONAL": {
+            "filterType": "NOTIONAL",
+            "minNotional": "5.00000000",
+            "applyMinToMarket": true,
+            "maxNotional": "9000000.00000000",
+            "applyMaxToMarket": false,
+            "avgPriceMins": 5
+          }
+        }
+      },
+      "capture_window": {
+        "first_receive_utc": "2026-11-23T21:41:39.162Z",
+        "last_receive_utc": "2026-11-23T21:44:39.156Z",
+        "receive_utc_basis": "UTC file creation plus recorder elapsed receive offsets",
+        "first_receive_elapsed_ms": 0,
+        "last_receive_elapsed_ms": 179994,
+        "exchange_event_min_utc": "2026-11-23T21:43:01.775Z",
+        "exchange_event_max_utc": "2026-11-23T21:46:01.714Z",
+        "recorder_called_at_utc": "2026-11-23T21:41:38.403Z",
+        "recorder_returned_at_utc": "2026-11-23T21:44:41.174Z"
+      },
+      "message_counts": {
+        "feed_status": 2,
+        "btcusdt@trade": 6181,
+        "btcusdt@depth@100ms": 1791,
+        "rest_depth": 1
+      },
+      "feed_status_counts": {
+        "syncing": 1,
+        "ready": 1
+      },
+      "synchronized_ms": 178451,
+      "normalized_replay_inputs": 7960
+    },
+    {
+      "id": "btcusdt-02",
+      "split": "development",
+      "earliest_start_utc": "2026-11-23T21:44:47.596Z",
+      "attempt": 1,
+      "recording": {
+        "path": "data/milestone-5/btcusdt-02.jsonl",
+        "bytes": 7645204,
+        "sha256": "4961170f183749fd527d16266d1289323db6292ceb5f1a485fd18e7083ed8e46"
+      },
+      "market_filters": {
+        "path": "data/milestone-5/btcusdt-02-exchange-info.json",
+        "bytes": 5428,
+        "sha256": "68c2bc5474e78b7d5c14c43753916a229c96c0958b628a082f62c6246f469a21",
+        "retrieved_at_utc": "2026-11-23T21:44:48.285Z",
+        "limit_order_filters": {
+          "PRICE_FILTER": {
+            "filterType": "PRICE_FILTER",
+            "minPrice": "0.01000000",
+            "maxPrice": "1000000.00000000",
+            "tickSize": "0.01000000"
+          },
+          "LOT_SIZE": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.00001000",
+            "maxQty": "9000.00000000",
+            "stepSize": "0.00001000"
+          },
+          "NOTIONAL": {
+            "filterType": "NOTIONAL",
+            "minNotional": "5.00000000",
+            "applyMinToMarket": true,
+            "maxNotional": "9000000.00000000",
+            "applyMaxToMarket": false,
+            "avgPriceMins": 5
+          }
+        }
+      },
+      "capture_window": {
+        "first_receive_utc": "2026-11-23T21:44:49.029Z",
+        "last_receive_utc": "2026-11-23T21:47:48.969Z",
+        "receive_utc_basis": "UTC file creation plus recorder elapsed receive offsets",
+        "first_receive_elapsed_ms": 0,
+        "last_receive_elapsed_ms": 179940,
+        "exchange_event_min_utc": "2026-11-23T21:46:11.708Z",
+        "exchange_event_max_utc": "2026-11-23T21:49:11.514Z",
+        "recorder_called_at_utc": "2026-11-23T21:44:48.295Z",
+        "recorder_returned_at_utc": "2026-11-23T21:47:51.042Z"
+      },
+      "message_counts": {
+        "feed_status": 2,
+        "btcusdt@trade": 8391,
+        "btcusdt@depth@100ms": 1798,
+        "rest_depth": 1
+      },
+      "feed_status_counts": {
+        "syncing": 1,
+        "ready": 1
+      },
+      "synchronized_ms": 178226,
+      "normalized_replay_inputs": 10176
+    },
+    {
+      "id": "btcusdt-03",
+      "split": "held_out",
+      "earliest_start_utc": "2026-11-23T21:47:57.596Z",
+      "attempt": 1,
+      "recording": {
+        "path": "data/milestone-5/btcusdt-03.jsonl",
+        "bytes": 4949443,
+        "sha256": "b390d4cc8882c4ab97b35b4fc80f765ad0eb40e59a87db349e652864d23050a2"
+      },
+      "market_filters": {
+        "path": "data/milestone-5/btcusdt-03-exchange-info.json",
+        "bytes": 5428,
+        "sha256": "ba4bed78887fed0335a547bf7a6597f742b490d41803fb3f27703bb44978e244",
+        "retrieved_at_utc": "2026-11-23T21:47:58.290Z",
+        "limit_order_filters": {
+          "PRICE_FILTER": {
+            "filterType": "PRICE_FILTER",
+            "minPrice": "0.01000000",
+            "maxPrice": "1000000.00000000",
+            "tickSize": "0.01000000"
+          },
+          "LOT_SIZE": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.00001000",
+            "maxQty": "9000.00000000",
+            "stepSize": "0.00001000"
+          },
+          "NOTIONAL": {
+            "filterType": "NOTIONAL",
+            "minNotional": "5.00000000",
+            "applyMinToMarket": true,
+            "maxNotional": "9000000.00000000",
+            "applyMaxToMarket": false,
+            "avgPriceMins": 5
+          }
+        }
+      },
+      "capture_window": {
+        "first_receive_utc": "2026-11-23T21:47:59.008Z",
+        "last_receive_utc": "2026-11-23T21:50:58.969Z",
+        "receive_utc_basis": "UTC file creation plus recorder elapsed receive offsets",
+        "first_receive_elapsed_ms": 0,
+        "last_receive_elapsed_ms": 179961,
+        "exchange_event_min_utc": "2026-11-23T21:49:21.614Z",
+        "exchange_event_max_utc": "2026-11-23T21:52:21.514Z",
+        "recorder_called_at_utc": "2026-11-23T21:47:58.300Z",
+        "recorder_returned_at_utc": "2026-11-23T21:51:01.022Z"
+      },
+      "message_counts": {
+        "feed_status": 2,
+        "btcusdt@depth@100ms": 1795,
+        "btcusdt@trade": 4531,
+        "rest_depth": 1
+      },
+      "feed_status_counts": {
+        "syncing": 1,
+        "ready": 1
+      },
+      "synchronized_ms": 178354,
+      "normalized_replay_inputs": 6313
+    },
+    {
+      "id": "btcusdt-04",
+      "split": "held_out",
+      "earliest_start_utc": "2026-11-23T21:51:07.596Z",
+      "attempt": 1,
+      "recording": {
+        "path": "data/milestone-5/btcusdt-04.jsonl",
+        "bytes": 4743151,
+        "sha256": "0268af7a1a363990ed0290894f0d048544892694b97a365e150e87ffe49f9392"
+      },
+      "market_filters": {
+        "path": "data/milestone-5/btcusdt-04-exchange-info.json",
+        "bytes": 5428,
+        "sha256": "bbf300351bb297ce4a9bf40c6e328dff2f1c356f1a19bce3c31eabf7cd51b02a",
+        "retrieved_at_utc": "2026-11-23T21:51:08.306Z",
+        "limit_order_filters": {
+          "PRICE_FILTER": {
+            "filterType": "PRICE_FILTER",
+            "minPrice": "0.01000000",
+            "maxPrice": "1000000.00000000",
+            "tickSize": "0.01000000"
+          },
+          "LOT_SIZE": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.00001000",
+            "maxQty": "9000.00000000",
+            "stepSize": "0.00001000"
+          },
+          "NOTIONAL": {
+            "filterType": "NOTIONAL",
+            "minNotional": "5.00000000",
+            "applyMinToMarket": true,
+            "maxNotional": "9000000.00000000",
+            "applyMaxToMarket": false,
+            "avgPriceMins": 5
+          }
+        }
+      },
+      "capture_window": {
+        "first_receive_utc": "2026-11-23T21:51:09.035Z",
+        "last_receive_utc": "2026-11-23T21:54:08.974Z",
+        "receive_utc_basis": "UTC file creation plus recorder elapsed receive offsets",
+        "first_receive_elapsed_ms": 0,
+        "last_receive_elapsed_ms": 179939,
+        "exchange_event_min_utc": "2026-11-23T21:52:31.714Z",
+        "exchange_event_max_utc": "2026-11-23T21:55:31.514Z",
+        "recorder_called_at_utc": "2026-11-23T21:51:08.317Z",
+        "recorder_returned_at_utc": "2026-11-23T21:54:11.052Z"
+      },
+      "message_counts": {
+        "feed_status": 2,
+        "btcusdt@depth@100ms": 1794,
+        "btcusdt@trade": 4287,
+        "rest_depth": 1
+      },
+      "feed_status_counts": {
+        "syncing": 1,
+        "ready": 1
+      },
+      "synchronized_ms": 178419,
+      "normalized_replay_inputs": 6070
+    }
+  ],
+  "failed_attempts": [],
+  "completed_at_utc": "2026-11-23T21:54:12.238Z"
+}

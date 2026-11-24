@@ -1,0 +1,5 @@
+{"version":1,"stream":"btcusdt@depth@100ms","sequence":1,"received_elapsed_ms":0,"raw_payload":"{\"data\":{\"U\":100,\"u\":101,\"b\":[[\"68448\",\"0.04\"]],\"a\":[]}}","exchange_timestamp_ms":null}
+{"version":1,"stream":"rest_depth","sequence":2,"received_elapsed_ms":0,"raw_payload":"{\"lastUpdateId\":100,\"bids\":[[\"68447\",\"0.1\"]],\"asks\":[[\"68452\",\"0.5\"]]}","exchange_timestamp_ms":null}
+{"version":1,"stream":"btcusdt@trade","sequence":3,"received_elapsed_ms":120,"raw_payload":"{\"data\":{\"t\":101,\"p\":\"68448\",\"q\":\"0.025\",\"m\":true}}","exchange_timestamp_ms":null}
+{"version":1,"stream":"btcusdt@trade","sequence":4,"received_elapsed_ms":130,"raw_payload":"{\"data\":{\"t\":102,\"p\":\"68448\",\"q\":\"0.035\",\"m\":true}}","exchange_timestamp_ms":null}
+{"version":1,"stream":"btcusdt@depth@100ms","sequence":5,"received_elapsed_ms":200,"raw_payload":"{\"data\":{\"U\":102,\"u\":102,\"b\":[[\"68448\",\"0.01\"]],\"a\":[]}}","exchange_timestamp_ms":null}

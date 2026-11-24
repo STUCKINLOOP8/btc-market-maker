@@ -1,0 +1,40 @@
+[
+  {
+    "type": "trade",
+    "timestamp_ms": 1005,
+    "sequence": 4,
+    "trade_id": 101,
+    "price": "68448.01",
+    "quantity": "0.25000000",
+    "buyer_is_maker": true
+  },
+  {
+    "type": "book_snapshot",
+    "timestamp_ms": 1000,
+    "sequence": 1,
+    "bids": [["68448.01", "0.40000000"]],
+    "asks": [["68452.01", "0.50000000"]]
+  },
+  {
+    "type": "depth_update",
+    "timestamp_ms": 1005,
+    "sequence": 3,
+    "bids": [["68448.01", "0.15000000"]],
+    "asks": []
+  },
+  {
+    "type": "submit_order",
+    "timestamp_ms": 1002,
+    "sequence": 2,
+    "order_id": "bid-1",
+    "side": "buy",
+    "limit_price": "68448.01",
+    "quantity": "0.05000000"
+  },
+  {
+    "type": "cancel_order",
+    "timestamp_ms": 1010,
+    "sequence": 5,
+    "order_id": "bid-1"
+  }
+]

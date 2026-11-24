@@ -1,0 +1,481 @@
+/* ==========================================================================
+   ABOUT / LANDING PAGE SYNTHWAVE STYLES (NEAR-NEUTRAL SURFACES)
+   ========================================================================== */
+
+.landing-container {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: clamp(1rem, 3vw, 2.5rem) 1.25rem 3.5rem;
+}
+
+/* Nav Header */
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding: 0.85rem 1.4rem;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+}
+
+.landing-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.landing-brand-name {
+  font-family: var(--font-pixel);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  color: var(--text-primary);
+}
+
+.terminal-nav-link {
+  font-family: var(--font-pixel);
+  font-size: 0.62rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  color: var(--cyan);
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.terminal-nav-link:hover {
+  border-color: var(--cyan);
+  background: #1E2335;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  position: relative;
+}
+
+.hero-title-wrap {
+  margin-bottom: 0.85rem;
+}
+
+.hero-title {
+  font-family: var(--font-pixel);
+  font-size: clamp(1.4rem, 4vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+  margin: 0;
+  display: inline-block;
+}
+
+.hero-desc {
+  max-width: 44rem;
+  margin: 0 auto 1.8rem;
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Hero Pixel Artwork (Sun, Perspective Grid, Palms) */
+.hero-artwork-frame {
+  max-width: 54rem;
+  margin: 0 auto 2.2rem;
+  height: clamp(15rem, 30vw, 22rem);
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border-radius: var(--border-radius);
+  position: relative;
+  overflow: hidden;
+  image-rendering: pixelated;
+}
+
+.hero-artwork-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.hero-btn {
+  text-decoration: none;
+  font-family: var(--font-pixel);
+  font-size: 0.78rem;
+  padding: 0.85rem 1.6rem;
+  min-height: 3.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  transition: transform 0.06s ease, box-shadow 0.06s ease, background 0.1s ease, border-color 0.1s ease;
+}
+
+.hero-btn.primary {
+  background: var(--cyan);
+  color: #0B0D14;
+  border: 1px solid var(--cyan);
+  box-shadow: 2px 2px 0 #000, 0 0 10px rgba(53, 214, 240, 0.4);
+  font-weight: 700;
+}
+
+.hero-btn.primary:hover {
+  background: #5DE2F7;
+  box-shadow: 3px 3px 0 #000, 0 0 14px rgba(53, 214, 240, 0.6);
+}
+
+.hero-btn.secondary {
+  background: var(--raised-fill);
+  color: var(--text-primary);
+  border: 1px solid var(--panel-border);
+  box-shadow: 2px 2px 0 #000;
+}
+
+.hero-btn.secondary:hover {
+  background: #1E2335;
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+.hero-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+/* ==========================================================================
+   SCROLLING TICKER STRIP WITH SMALL PIXEL ICONS
+   ========================================================================== */
+
+.ticker-strip {
+  overflow: hidden;
+  white-space: nowrap;
+  background: var(--raised-fill);
+  border-top: 1px solid var(--panel-border);
+  border-bottom: 1px solid var(--panel-border);
+  padding: 0.75rem 0;
+  margin: 2.8rem -1.25rem;
+}
+
+.ticker-track {
+  display: inline-flex;
+  gap: 3.5rem;
+  animation: ticker-slide 22s linear infinite;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: var(--font-pixel);
+  font-size: 0.68rem;
+  color: var(--text-primary);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ticker-item svg {
+  width: 14px;
+  height: 14px;
+  image-rendering: pixelated;
+  flex-shrink: 0;
+}
+
+@keyframes ticker-slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Section Containers */
+.landing-section {
+  margin: 3.5rem 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.section-tag {
+  font-family: var(--font-pixel);
+  font-size: 0.58rem;
+  color: var(--sunset-yellow);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.section-title {
+  font-family: var(--font-pixel);
+  font-size: clamp(1.15rem, 2.5vw, 1.65rem);
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+/* ==========================================================================
+   HOW IT WORKS: 4 STEPS GRID
+   ========================================================================== */
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.4rem;
+}
+
+.step-card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--cyan);
+}
+
+.step-num-badge {
+  font-family: var(--font-pixel);
+  font-size: 0.58rem;
+  color: var(--sunset-yellow);
+  background: rgba(229, 193, 88, 0.12);
+  border: 1px solid var(--sunset-yellow);
+  border-radius: 3px;
+  padding: 0.22rem 0.5rem;
+  align-self: flex-start;
+  margin-bottom: 1rem;
+  letter-spacing: 0.08em;
+}
+
+.step-title {
+  font-family: var(--font-pixel);
+  font-size: 0.8rem;
+  color: var(--text-primary);
+  margin: 0 0 0.75rem;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+
+.step-desc {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ==========================================================================
+   THE THREE STRATEGIES: PIXEL CARDS
+   ========================================================================== */
+
+.strategies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: 1.4rem;
+}
+
+.strategy-card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.strategy-card:hover {
+  transform: translateY(-2px);
+}
+
+.strategy-card[data-strat="fixed"]:hover {
+  border-color: var(--cyan);
+}
+
+.strategy-card[data-strat="as"]:hover {
+  border-color: var(--magenta);
+}
+
+.strategy-card[data-strat="as-imb"]:hover {
+  border-color: var(--sunset-yellow);
+}
+
+.strategy-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--raised-fill);
+  border: 1px solid var(--cyan);
+  border-radius: 4px;
+  display: grid;
+  place-content: center;
+  margin-bottom: 1.15rem;
+  image-rendering: pixelated;
+}
+
+.strategy-card[data-strat="as"] .strategy-icon {
+  border-color: var(--magenta);
+}
+
+.strategy-card[data-strat="as-imb"] .strategy-icon {
+  border-color: var(--sunset-yellow);
+}
+
+.strategy-name {
+  font-family: var(--font-pixel);
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  margin: 0 0 0.85rem;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
+}
+
+.strategy-desc {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ==========================================================================
+   SIMULATION NOTICE & DISCLAIMER BANNER
+   ========================================================================== */
+
+.simulation-note-banner {
+  background: rgba(255, 92, 122, 0.08);
+  border: 1px solid var(--negative);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+  padding: 1.25rem 1.65rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 3.5rem 0;
+}
+
+.note-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.note-text h3 {
+  font-family: var(--font-pixel);
+  font-size: 0.75rem;
+  color: var(--negative);
+  margin: 0 0 0.35rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.note-text p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* ==========================================================================
+   FOOTER
+   Link to terminal, no invented stats/testimonials/prices
+   ========================================================================== */
+
+.landing-footer {
+  margin-top: 4.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--panel-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.footer-copy {
+  font-family: var(--font-pixel);
+  font-size: 0.58rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.footer-note {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.footer-link {
+  font-family: var(--font-pixel);
+  font-size: 0.65rem;
+  color: var(--cyan);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  background: var(--raised-fill);
+  transition: all 0.15s ease;
+}
+
+.footer-link:hover {
+  border-color: var(--cyan);
+}
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS (360px - 1440px)
+   ========================================================================== */
+
+@media (max-width: 48rem) {
+  .landing-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-btn {
+    width: 100%;
+  }
+  .simulation-note-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .landing-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

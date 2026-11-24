@@ -1,0 +1,75 @@
+[
+  {
+    "type": "book_snapshot",
+    "timestamp_ms": 1000,
+    "sequence": 1,
+    "bids": [["68448", "0.40"]],
+    "asks": [["68452", "0.50"]]
+  },
+  {
+    "type": "submit_order",
+    "timestamp_ms": 1001,
+    "sequence": 2,
+    "order_id": "buy-1",
+    "side": "buy",
+    "limit_price": "68448",
+    "quantity": "0.05"
+  },
+  {
+    "type": "depth_update",
+    "timestamp_ms": 1029,
+    "sequence": 3,
+    "bids": [["68448", "0.15"]],
+    "asks": []
+  },
+  {
+    "type": "trade",
+    "timestamp_ms": 1030,
+    "sequence": 4,
+    "trade_id": 101,
+    "price": "68448",
+    "quantity": "0.25",
+    "buyer_is_maker": true
+  },
+  {
+    "type": "trade",
+    "timestamp_ms": 1500,
+    "sequence": 5,
+    "trade_id": 102,
+    "price": "68448",
+    "quantity": "0.30",
+    "buyer_is_maker": true
+  },
+  {
+    "type": "submit_order",
+    "timestamp_ms": 2000,
+    "sequence": 6,
+    "order_id": "sell-1",
+    "side": "sell",
+    "limit_price": "68452",
+    "quantity": "0.05"
+  },
+  {
+    "type": "trade",
+    "timestamp_ms": 3000,
+    "sequence": 7,
+    "trade_id": 103,
+    "price": "68452",
+    "quantity": "0.55",
+    "buyer_is_maker": false
+  },
+  {
+    "type": "book_snapshot",
+    "timestamp_ms": 6500,
+    "sequence": 8,
+    "bids": [["68449.50", "0.15"]],
+    "asks": [["68453.50", "0.50"]]
+  },
+  {
+    "type": "book_snapshot",
+    "timestamp_ms": 8001,
+    "sequence": 9,
+    "bids": [["68448", "0.15"]],
+    "asks": [["68452", "0.50"]]
+  }
+]

@@ -1,0 +1,1515 @@
+/* ==========================================================================
+   RETRO PIXEL-ART SYNTHWAVE DESIGN TOKENS & STYLES (NEAR-NEUTRAL SURFACES)
+   BTC/USDT Trading Terminal & Simulator
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* --- Color Palette Tokens (Near-neutral dark surfaces) --- */
+  --bg-page: #0B0D14;
+  --bg-sky: #0B0D14;
+  --bg-deep: #0B0D14;
+  --panel: #12151F;
+  --panel-solid: #12151F;
+  --raised-fill: #171B28;
+  --inset: #171B28;
+  --card-bg: #171B28;
+  --input-bg: #171B28;
+
+  /* Borders & Grid (No bright double blue frames) */
+  --panel-border: #2A3042;
+  --border-subtle: #2A3042;
+  --hairline: #2A3042;
+  --blue-border: #2A3042;
+  --blue-border-bright: #2A3042;
+  --blue-grid: #1A1F2C;
+
+  /* Typography Colors (High contrast, WCAG AA >= 4.5:1) */
+  --text-primary: #E6E9F2;
+  --text-main: #E6E9F2;
+  --text-secondary: #9AA3B8;
+  --text-dim: #9AA3B8;
+  --text-muted: #9AA3B8;
+
+  /* Accent Colors (Neon strictly as small accents, primary actions, selections) */
+  --cyan: #35D6F0;
+  --cyan-bright: #67E8F9;
+  --cyan-dark: #1A4750;
+  --cyan-glow: 0 0 8px rgba(53, 214, 240, 0.4);
+
+  --magenta: #FF4FD8;
+  --magenta-bright: #FF85E5;
+  --magenta-dark: #661854;
+  --magenta-glow: 0 0 8px rgba(255, 79, 216, 0.4);
+
+  /* Semantic Trading Colors */
+  --positive: #3DDC97;
+  --mint: #3DDC97;
+  --negative: #FF5C7A;
+  --sell: #FF5C7A;
+  --halt-red: #FF5C7A;
+
+  /* Muted Chart & Warning Colors */
+  --muted-yellow: #E5C158;
+  --sunset-yellow: #E5C158;
+  --sunset-orange: #FF8C5A;
+  --sunset-pink: #FF4FD8;
+
+  /* Fonts */
+  --font-pixel: "Press Start 2P", "Silkscreen", monospace;
+  --font-script: "Yellowtail", "Brush Script MT", "Caveat", cursive;
+  --font-mono: "IBM Plex Mono", Consolas, monospace;
+
+  /* Dimensions & Subtleties */
+  --border-radius: 6px;
+  --glow-strength: 0 0 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html {
+  font-family: var(--font-mono);
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Focus styles for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 1px;
+  box-shadow: 0 0 8px rgba(53, 214, 240, 0.5);
+}
+
+/* ==========================================================================
+   RETRO SYNTHWAVE PIXEL BACKDROP (Faint, low opacity behind panels)
+   ========================================================================== */
+
+.synthwave-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background: var(--bg-page);
+  image-rendering: pixelated;
+}
+
+/* Tiny pixel stars scattered across upper sky (faint) */
+.pixel-stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55%;
+  opacity: 0.45;
+  background-image:
+    radial-gradient(1px 1px at 10% 15%, #ffffff, transparent),
+    radial-gradient(1px 1px at 25% 28%, #d9ffff, transparent),
+    radial-gradient(2px 2px at 42% 12%, #E5C158, transparent),
+    radial-gradient(1px 1px at 60% 22%, #ffffff, transparent),
+    radial-gradient(2px 2px at 78% 18%, #FF4FD8, transparent),
+    radial-gradient(1px 1px at 92% 35%, #35D6F0, transparent),
+    radial-gradient(1px 1px at 15% 42%, #ffffff, transparent),
+    radial-gradient(2px 2px at 33% 48%, #3DDC97, transparent),
+    radial-gradient(1px 1px at 52% 8%, #ffffff, transparent),
+    radial-gradient(1px 1px at 68% 40%, #d9ffff, transparent),
+    radial-gradient(2px 2px at 85% 10%, #ffffff, transparent);
+  background-size: 320px 240px;
+}
+
+/* Pixel Clouds (very faint) */
+.pixel-clouds {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 90px;
+  opacity: 0.06;
+  background-image:
+    linear-gradient(to right, transparent 0%, rgba(255, 79, 216, 0.4) 20%, rgba(53, 214, 240, 0.4) 80%, transparent 100%);
+  filter: blur(3px);
+}
+
+/* 3D Perspective Grid (low opacity, subtle depth) */
+.perspective-grid {
+  position: absolute;
+  bottom: 0;
+  left: -20%;
+  width: 140%;
+  height: 48%;
+  opacity: 0.55;
+  background-image:
+    linear-gradient(to right, rgba(53, 214, 240, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(53, 214, 240, 0.07) 1px, transparent 1px);
+  background-size: 48px 24px;
+  transform: perspective(300px) rotateX(65deg);
+  transform-origin: 50% 100%;
+  mask-image: linear-gradient(to top, rgba(0,0,0,1) 15%, rgba(0,0,0,0) 95%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,1) 15%, rgba(0,0,0,0) 95%);
+}
+
+.perspective-horizon {
+  position: absolute;
+  bottom: 46%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(53, 214, 240, 0.25), rgba(255, 79, 216, 0.25), transparent);
+}
+
+/* ==========================================================================
+   LAYOUT CONTAINERS & NEUTRAL PANELS (1px solid #2A3042 border)
+   ========================================================================== */
+
+main {
+  max-width: 110rem;
+  margin: auto;
+  padding: clamp(0.75rem, 2vw, 1.8rem);
+  position: relative;
+  z-index: 1;
+}
+
+/* Neutral Panel: fill #12151F, border 1px solid #2A3042 */
+.panel {
+  min-width: 0;
+  padding: clamp(0.9rem, 1.3vw, 1.25rem);
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+  position: relative;
+}
+
+/* ==========================================================================
+   HEADER COMPONENT
+   Pixel logo, neon cyan stepped title, magenta script, mode badge, feed pill
+   ========================================================================== */
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem 1.8rem;
+  margin-bottom: 1.2rem;
+  padding: 0.85rem 1.25rem;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Pixel Art Logo */
+.pixel-logo {
+  width: 38px;
+  height: 38px;
+  background: var(--raised-fill);
+  border: 1px solid var(--cyan);
+  box-shadow: 2px 2px 0 #000;
+  display: grid;
+  place-content: center;
+  image-rendering: pixelated;
+  flex-shrink: 0;
+}
+
+.pixel-logo svg {
+  display: block;
+}
+
+.brand-text h1 {
+  font-family: var(--font-pixel);
+  font-size: clamp(0.95rem, 1.8vw, 1.3rem);
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.brand-text h1 span {
+  color: var(--cyan);
+  font-weight: 400;
+}
+
+.magenta-script {
+  font-family: var(--font-script);
+  color: var(--magenta);
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 400;
+  transform: rotate(-3deg);
+  display: inline-block;
+  margin-left: 0.3rem;
+  letter-spacing: 0;
+}
+
+.brand-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.nav-about-link {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  color: var(--sunset-yellow);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--sunset-yellow);
+  padding-bottom: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.nav-about-link:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* Persistent Mode Badge */
+.mode-badge {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  padding: 0.22rem 0.5rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  box-shadow: 1px 1px 0 #000;
+}
+
+.mode-badge[data-mode="replay"] {
+  background: rgba(53, 214, 240, 0.15);
+  color: var(--cyan);
+  border: 1px solid var(--cyan);
+}
+
+.mode-badge[data-mode="live"] {
+  background: rgba(61, 220, 151, 0.15);
+  color: var(--positive);
+  border: 1px solid var(--positive);
+}
+
+.mode-badge[data-mode="exchange"] {
+  background: rgba(255, 79, 216, 0.15);
+  color: var(--magenta);
+  border: 1px solid var(--magenta);
+}
+
+/* Feed Health Pill */
+.feed-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.25rem 0.65rem;
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.feed-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.feed-pill[data-health="ready"] .feed-dot {
+  background: var(--positive);
+  box-shadow: 0 0 6px var(--positive);
+}
+.feed-pill[data-health="syncing"] .feed-dot {
+  background: var(--sunset-yellow);
+  box-shadow: 0 0 6px var(--sunset-yellow);
+}
+.feed-pill[data-health="unavailable"] .feed-dot,
+.feed-pill[data-health="stopped"] .feed-dot {
+  background: var(--negative);
+  box-shadow: 0 0 6px var(--negative);
+}
+.feed-pill[data-health="reconnecting"] .feed-dot {
+  background: var(--magenta);
+  box-shadow: 0 0 6px var(--magenta);
+}
+
+.status-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.status-bar dt {
+  font-family: var(--font-pixel);
+  font-size: 0.52rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.status-bar dd {
+  margin: 0.1rem 0 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+#status {
+  font-family: var(--font-pixel);
+  font-size: 0.62rem;
+  color: var(--cyan);
+}
+
+/* ==========================================================================
+   CONTROLS SECTION: SETUP & RUN GROUPS
+   Neutral card fills, crisp inputs, restrained primary button
+   ========================================================================== */
+
+.session {
+  display: grid;
+  gap: 1.1rem;
+  margin-bottom: 1.25rem;
+  background: var(--panel);
+}
+
+.controls-wrapper {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.control-group {
+  margin: 0;
+  padding: 0.95rem 1.15rem;
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+}
+
+.control-group legend {
+  font-family: var(--font-pixel);
+  font-size: 0.62rem;
+  color: var(--cyan);
+  padding: 0 0.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Form inputs */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+form label {
+  display: grid;
+  flex: 1 1 11rem;
+  gap: 0.35rem;
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+form .quote-setting {
+  flex: 1 1 7rem;
+}
+
+input, select {
+  min-width: 0;
+  min-height: 2.35rem;
+  padding: 0.4rem 0.65rem;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+  border: 1px solid var(--panel-border);
+  border-radius: 3px;
+  background: var(--panel);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+input:focus, select:focus {
+  border-color: var(--cyan);
+  outline: none;
+  box-shadow: 0 0 8px rgba(53, 214, 240, 0.4);
+}
+
+/* Chunky Pixel Buttons */
+button {
+  min-height: 2.35rem;
+  padding: 0.45rem 0.85rem;
+  font-family: var(--font-pixel);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  border-radius: 3px;
+  box-shadow: 2px 2px 0 #000;
+  cursor: pointer;
+  transition: transform 0.06s ease, box-shadow 0.06s ease, background 0.1s ease, border-color 0.1s ease;
+}
+
+button:hover:not(:disabled) {
+  background: #1E2335;
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+button:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+  border-color: var(--panel-border);
+  color: var(--text-secondary);
+}
+
+/* Primary Button: Solid Cyan with Black Text */
+.primary, button.primary, button[type="submit"] {
+  background: var(--cyan);
+  color: #0B0D14;
+  border: 1px solid var(--cyan);
+  box-shadow: 2px 2px 0 #000, 0 0 10px rgba(53, 214, 240, 0.4);
+  font-weight: 700;
+}
+
+.primary:hover:not(:disabled), button.primary:hover:not(:disabled), button[type="submit"]:hover:not(:disabled) {
+  background: #5DE2F7;
+  color: #0B0D14;
+  box-shadow: 3px 3px 0 #000, 0 0 14px rgba(53, 214, 240, 0.6);
+}
+
+.primary:active:not(:disabled), button.primary:active:not(:disabled), button[type="submit"]:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+/* Replay Controls Area */
+.run-controls-strip {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.replay-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.replay-controls label {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.replay-controls input {
+  width: 5rem;
+  text-align: center;
+}
+
+/* HALT Module: Distinct Red with Bright Border & Normal Glow */
+.halt-module {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 92, 122, 0.08);
+  border: 1px solid var(--negative);
+  border-radius: 4px;
+}
+
+.halt-button {
+  background: var(--negative);
+  color: #0B0D14;
+  border: 1px solid var(--negative);
+  box-shadow: 2px 2px 0 #000, 0 0 10px rgba(255, 92, 122, 0.4);
+  font-family: var(--font-pixel);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.65rem 1.4rem;
+  min-height: 2.8rem;
+  letter-spacing: 0.08em;
+}
+
+.halt-button:hover:not(:disabled) {
+  background: #FF758F;
+  color: #0B0D14;
+  box-shadow: 3px 3px 0 #000, 0 0 16px rgba(255, 92, 122, 0.6);
+}
+
+.halt-button:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+.halt-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.2rem;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.halt-stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.halt-stat-item dt {
+  font-family: var(--font-pixel);
+  font-size: 0.52rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.halt-stat-item dd {
+  margin: 0.1rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+#notice {
+  grid-column: 1 / -1;
+  color: var(--text-primary);
+  background: rgba(255, 92, 122, 0.12);
+  border: 1px solid var(--negative);
+  border-radius: 3px;
+  padding: 0.55rem 0.95rem;
+  font-size: 0.82rem;
+}
+
+/* ==========================================================================
+   WORKSPACE GRID & PANELS
+   Equity chart & depth ladder on top, wallet & timeline below
+   ========================================================================== */
+
+.workspace {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+/* Top Row */
+.portfolio {
+  grid-column: span 7;
+}
+
+.depth {
+  grid-column: span 5;
+}
+
+/* Bottom Row: matching panel heights & generous width for timeline */
+.wallet {
+  grid-column: span 4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline {
+  grid-column: span 8;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section Headings */
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin-bottom: 0.95rem;
+  border-bottom: 1px dashed var(--panel-border);
+  padding-bottom: 0.55rem;
+}
+
+.panel-heading h2 {
+  font-family: var(--font-pixel);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.panel-heading h2::before {
+  content: ">> ";
+  color: var(--cyan);
+}
+
+.unit {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   PROMOTED HEADLINE TILES STRIP
+   Net P&L after fees, Excess P&L vs hold, Inventory vs target, Filled volume
+   ========================================================================== */
+
+.headline-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-bottom: 1.15rem;
+}
+
+.headline-tile {
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  padding: 0.65rem 0.8rem;
+}
+
+.headline-tile dt {
+  font-family: var(--font-pixel);
+  font-size: 0.52rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.headline-tile dd {
+  margin: 0.35rem 0 0;
+  font-family: var(--font-mono);
+  font-size: clamp(0.95rem, 1.3vw, 1.2rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+/* Indicators and Arrows */
+.positive {
+  color: var(--positive) !important;
+}
+
+.negative {
+  color: var(--negative) !important;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.4rem;
+  margin: 0.85rem 0 0.55rem;
+  padding: 0;
+}
+
+.legend > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend dt {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.legend dd {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.swatch {
+  width: 1rem;
+  height: 0;
+  border-top: 3px solid var(--cyan);
+}
+
+.hold-swatch {
+  border-color: var(--sunset-yellow);
+  border-top-style: dashed;
+}
+
+/* Equity Chart */
+.chart {
+  position: relative;
+  height: clamp(14rem, 24vw, 18.5rem);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  background: var(--raised-fill);
+  overflow: hidden;
+}
+
+.chart canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#chart-empty {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Excess vs Hold strip beneath chart */
+.chart-excess-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.65rem;
+  padding: 0.45rem 0.85rem;
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+}
+
+.chart-excess-strip .excess-label {
+  font-family: var(--font-pixel);
+  font-size: 0.54rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+
+.chart-excess-strip .excess-val {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+
+.chart-excess-strip .excess-val.gain {
+  color: var(--positive);
+}
+
+.chart-excess-strip .excess-val.loss {
+  color: var(--negative);
+}
+
+.chart-excess-strip .excess-val.neutral {
+  color: var(--text-primary);
+}
+
+/* ==========================================================================
+   DEPTH LADDER COMPONENT
+   Bids and asks depth bars, marked working bid/ask and queue position
+   ========================================================================== */
+
+.depth-tables {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.depth-scroll {
+  max-height: 25rem;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--panel-border) transparent;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  background: var(--raised-fill);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+th, td {
+  text-align: right;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid rgba(42, 48, 66, 0.6);
+  color: var(--text-primary);
+}
+
+tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--raised-fill);
+  color: var(--text-secondary);
+  font-family: var(--font-pixel);
+  font-size: 0.54rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+.depth-scroll th, .depth-scroll td {
+  padding: 0.35rem 0.5rem;
+}
+
+.depth-scroll td:last-child {
+  background: linear-gradient(to left, var(--bar) var(--depth), transparent var(--depth));
+}
+
+#bids {
+  --bar: rgba(61, 220, 151, 0.14);
+}
+
+#asks {
+  --bar: rgba(255, 92, 122, 0.14);
+}
+
+.buy, .bid-label {
+  color: var(--positive);
+}
+
+.sell, .ask-label {
+  color: var(--negative);
+}
+
+/* Marked Working Orders in Depth Ladder */
+tr.my-order {
+  outline: 1px solid var(--cyan) !important;
+  background: rgba(53, 214, 240, 0.12) !important;
+  font-weight: 700;
+}
+
+.my-order-pill {
+  display: inline-block;
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  padding: 0.12rem 0.35rem;
+  border-radius: 2px;
+  margin-left: 0.35rem;
+  text-transform: uppercase;
+}
+
+.my-order-pill.buy {
+  background: var(--positive);
+  color: #0B0D14;
+}
+
+.my-order-pill.sell {
+  background: var(--negative);
+  color: #0B0D14;
+}
+
+/* ==========================================================================
+   WALLET PANEL WITH STACKED BARS
+   Total, reserved, available per asset
+   ========================================================================== */
+
+.wallet-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-bottom: 1.15rem;
+  padding: 0.85rem;
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+}
+
+.wallet-legend {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.wallet-legend .legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.wallet-legend .swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.stacked-bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.stacked-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.stacked-bar-header .asset-name {
+  font-family: var(--font-pixel);
+  font-size: 0.55rem;
+  color: var(--cyan);
+  letter-spacing: 0.04em;
+}
+
+.stacked-bar-header .asset-ratio {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.stacked-bar {
+  display: flex;
+  height: 12px;
+  background: #0B0D14;
+  border: 1px solid var(--panel-border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.bar-slice {
+  height: 100%;
+  transition: width 0.25s ease;
+}
+
+.bar-available-btc {
+  background: var(--positive);
+}
+.bar-reserved-btc {
+  background: var(--sunset-yellow);
+}
+.bar-available-usdt {
+  background: var(--cyan);
+}
+.bar-reserved-usdt {
+  background: var(--sunset-orange);
+}
+
+.table-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--panel-border) transparent;
+}
+
+/* ==========================================================================
+   STATUS & SIDE CHIPS
+   Color + icon + text cue
+   ========================================================================== */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.45rem;
+  border-radius: 3px;
+  font-family: var(--font-pixel);
+  font-size: 0.54rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.chip-icon {
+  font-size: 0.62rem;
+  line-height: 1;
+}
+
+.chip-buy {
+  background: rgba(61, 220, 151, 0.15);
+  color: var(--positive);
+  border: 1px solid var(--positive);
+}
+
+.chip-sell {
+  background: rgba(255, 92, 122, 0.15);
+  color: var(--negative);
+  border: 1px solid var(--negative);
+}
+
+.chip-filled {
+  background: rgba(61, 220, 151, 0.15);
+  color: var(--positive);
+  border: 1px solid var(--positive);
+}
+
+.chip-active {
+  background: rgba(53, 214, 240, 0.15);
+  color: var(--cyan);
+  border: 1px solid var(--cyan);
+}
+
+.chip-partial {
+  background: rgba(53, 214, 240, 0.18);
+  color: var(--cyan);
+  border: 1px solid var(--cyan);
+}
+
+.chip-pending {
+  background: rgba(229, 193, 88, 0.15);
+  color: var(--sunset-yellow);
+  border: 1px solid var(--sunset-yellow);
+}
+
+.chip-canceled {
+  background: rgba(154, 163, 184, 0.12);
+  color: var(--text-secondary);
+  border: 1px solid var(--panel-border);
+}
+
+.chip-rejected {
+  background: rgba(255, 92, 122, 0.15);
+  color: var(--negative);
+  border: 1px solid var(--negative);
+}
+
+.chip-expired {
+  background: rgba(154, 163, 184, 0.12);
+  color: var(--text-secondary);
+  border: 1px solid var(--panel-border);
+}
+
+.chip-event {
+  background: rgba(53, 214, 240, 0.1);
+  color: var(--cyan);
+  border: 1px solid rgba(53, 214, 240, 0.35);
+  font-size: 0.52rem;
+}
+
+.group-badge {
+  background: rgba(255, 79, 216, 0.15);
+  color: var(--magenta);
+  border: 1px solid var(--magenta);
+  font-size: 0.54rem;
+}
+
+/* ==========================================================================
+   PAPER ORDERS SUBPANEL (Moved into Timeline)
+   Fits comfortably without horizontal scrolling
+   ========================================================================== */
+
+.orders-section {
+  margin-bottom: 1.15rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed var(--panel-border);
+}
+
+.orders-section .panel-heading {
+  margin-bottom: 0.65rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.orders-section h3 {
+  font-family: var(--font-pixel);
+  font-size: 0.65rem;
+  color: var(--text-primary);
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.orders-section h3::before {
+  content: ">> ";
+  color: var(--cyan);
+}
+
+.timeline-header {
+  margin-top: 0.25rem;
+}
+
+/* ==========================================================================
+   ORDER TIMELINE & RIGHT-SIDE INSPECTOR
+   Columnar timeline rows, consecutive group collapsing & inspector
+   ========================================================================== */
+
+.timeline-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 1.2rem;
+  flex: 1;
+}
+
+.timeline-events {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  max-height: 28rem;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0.2rem;
+  list-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--panel-border) transparent;
+}
+
+.timeline-single {
+  list-style: none;
+}
+
+/* Columnar Timeline Row Button */
+.timeline-row-btn {
+  display: grid;
+  grid-template-columns: 82px 115px 70px 105px 95px 85px minmax(70px, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.45rem 0.65rem;
+  text-align: left;
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  box-shadow: 1px 1px 0 #000;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.timeline-row-btn:hover {
+  background: #1E2335;
+  border-color: #3D4760;
+}
+
+.timeline-row-btn[aria-pressed="true"] {
+  border-color: var(--cyan);
+  background: rgba(53, 214, 240, 0.12);
+  box-shadow: 0 0 8px rgba(53, 214, 240, 0.4);
+}
+
+.timeline-row-btn.sub-row {
+  background: #131722;
+  border-left: 2px solid var(--magenta);
+}
+
+.col-time {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.col-time .event-time {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+.col-time .delta-time {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.col-order {
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12.5px;
+}
+
+.col-price {
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.col-qty {
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.col-meta {
+  color: var(--text-secondary);
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.trade-tag {
+  color: var(--sunset-yellow);
+  font-weight: 600;
+}
+
+/* Consecutive Group Row Styling */
+.timeline-group {
+  list-style: none;
+  margin-bottom: 0.35rem;
+}
+
+.group-header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  background: var(--raised-fill);
+  border: 1px solid var(--panel-border);
+  border-radius: 3px;
+  box-shadow: 1px 1px 0 #000;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-primary);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.group-header-btn:hover {
+  background: #1E2335;
+  border-color: var(--magenta);
+}
+
+.group-header-btn[aria-pressed="true"],
+.timeline-group.expanded .group-header-btn {
+  border-color: var(--magenta);
+  box-shadow: 0 0 8px rgba(255, 79, 216, 0.35);
+}
+
+.group-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.group-toggle-icon {
+  color: var(--magenta);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.group-order {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.group-timerange {
+  color: var(--cyan);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.group-queueshift {
+  color: var(--sunset-yellow);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.group-hint {
+  color: var(--text-secondary);
+  font-family: var(--font-pixel);
+  font-size: 0.52rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.group-children {
+  list-style: none;
+  padding-left: 1.25rem;
+  margin: 0.35rem 0 0.5rem;
+  border-left: 2px dashed rgba(255, 79, 216, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* Right-side Inspector */
+.inspector {
+  min-width: 0;
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+  padding: 1rem;
+  background: var(--raised-fill);
+}
+
+.inspector h3 {
+  font-family: var(--font-pixel);
+  font-size: 0.68rem;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 0.85rem;
+}
+
+.inspector h3::before {
+  content: ">> ";
+  color: var(--magenta);
+}
+
+.inspector h4 {
+  font-family: var(--font-pixel);
+  font-size: 0.58rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 1.15rem 0 0.45rem;
+}
+
+.inspector-details {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, 2fr) minmax(0, 3fr);
+  gap: 0.35rem 0.85rem;
+}
+
+.inspector-details dt {
+  font-family: var(--font-pixel);
+  font-size: 0.52rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.inspector-details dd {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+  overflow-wrap: anywhere;
+}
+
+.empty {
+  padding: 0.95rem 0;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+#inspector-empty {
+  color: var(--text-primary);
+  font-size: 13.5px;
+  font-style: normal;
+  padding: 1.25rem 0.5rem;
+  line-height: 1.6;
+}
+
+.order-link {
+  min-height: 0;
+  padding: 0.15rem 0.4rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 2px;
+  color: var(--cyan);
+  background: rgba(53, 214, 240, 0.08);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.order-link:hover {
+  border-color: var(--cyan);
+}
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS (360px - 1440px)
+   ========================================================================== */
+
+@media (max-width: 68rem) {
+  .controls-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .portfolio, .depth, .wallet, .timeline {
+    grid-column: span 12;
+  }
+  .headline-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .timeline-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 44rem) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .headline-strip {
+    grid-template-columns: 1fr;
+  }
+  .depth-tables {
+    grid-template-columns: 1fr;
+  }
+  .status-bar {
+    gap: 0.4rem 0.8rem;
+  }
+}

@@ -1,0 +1,2735 @@
+REPLAY binance-btcusdt-milestone2.jsonl starting_btc=0.50 starting_usdt=34225 maker_fee_rate=0.00075 latency_ms=15
+[0 ms] FEED_UNAVAILABLE reason=awaiting_snapshot detail=unavailable
+[199 ms] TRADE_IGNORED trade_id=6903079199 reason='feed unavailable'
+[204 ms] TRADE_IGNORED trade_id=6903079200 reason='feed unavailable'
+[204 ms] TRADE_IGNORED trade_id=6903079201 reason='feed unavailable'
+[1328 ms] TRADE_IGNORED trade_id=6903079202 reason='feed unavailable'
+[1328 ms] TRADE_IGNORED trade_id=6903079203 reason='feed unavailable'
+[1328 ms] TRADE_IGNORED trade_id=6903079204 reason='feed unavailable'
+[1328 ms] TRADE_IGNORED trade_id=6903079205 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079206 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079207 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079208 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079209 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079210 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079211 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079212 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079213 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079214 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079215 reason='feed unavailable'
+[1329 ms] TRADE_IGNORED trade_id=6903079216 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079217 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079218 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079219 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079220 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079221 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079222 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079223 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079224 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079225 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079226 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079227 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079228 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079229 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079230 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079231 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079232 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079233 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079234 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079235 reason='feed unavailable'
+[1601 ms] TRADE_IGNORED trade_id=6903079236 reason='feed unavailable'
+[2222 ms] FEED_READY mid_price=61174.045
+[2222 ms] BOOK mid_price=61174.045
+[2222 ms] ORDER_SUBMITTED order_id=milestone-2-bid side=buy price=61174.04 quantity=0.001 btc=0.5 usdt=34225 reserved_btc=0 reserved_usdt=61.21992053
+[2237 ms] ORDER_ACTIVATED order_id=milestone-2-bid queue_ahead=0.17633
+[2255 ms] BOOK mid_price=61174.045
+[2355 ms] BOOK mid_price=61174.045
+[2455 ms] BOOK mid_price=61174.045
+[2554 ms] BOOK mid_price=61174.045
+[2660 ms] BOOK mid_price=61174.045
+[2676 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079237 trade_quantity=0.00009 queue_before=0.17633 queue_after=0.17624 fill_quantity=0
+[2676 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079238 trade_quantity=0.00009 queue_before=0.17624 queue_after=0.17615 fill_quantity=0
+[2676 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079239 trade_quantity=0.0001 queue_before=0.17615 queue_after=0.17605 fill_quantity=0
+[2677 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079240 trade_quantity=0.00009 queue_before=0.17605 queue_after=0.17596 fill_quantity=0
+[2677 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079241 trade_quantity=0.00009 queue_before=0.17596 queue_after=0.17587 fill_quantity=0
+[2677 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079242 trade_quantity=0.00009 queue_before=0.17587 queue_after=0.17578 fill_quantity=0
+[2677 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079243 trade_quantity=0.00009 queue_before=0.17578 queue_after=0.17569 fill_quantity=0
+[2677 ms] QUEUE_ADVANCED order_id=milestone-2-bid trade_id=6903079244 trade_quantity=0.00164 queue_before=0.17569 queue_after=0.17405 fill_quantity=0
+[2677 ms] TRADE_IGNORED trade_id=6903079245 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079246 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079247 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079248 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079249 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079250 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079251 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079252 order_id=milestone-2-bid reason='trade price differs from order price'
+[2677 ms] TRADE_IGNORED trade_id=6903079253 order_id=milestone-2-bid reason='trade price differs from order price'
+[2754 ms] BOOK mid_price=61173.155
+[2855 ms] BOOK mid_price=61173.155
+[2952 ms] BOOK mid_price=61173.155
+[3049 ms] BOOK mid_price=61173.155
+[3132 ms] TRADE_IGNORED trade_id=6903079254 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079255 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079256 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079257 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079258 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079259 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079260 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079261 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079262 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079263 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079264 order_id=milestone-2-bid reason='trade price differs from order price'
+[3133 ms] TRADE_IGNORED trade_id=6903079265 order_id=milestone-2-bid reason='trade price differs from order price'
+[3152 ms] BOOK mid_price=61172.265
+[3165 ms] TRADE_IGNORED trade_id=6903079266 reason='no working sell order'
+[3250 ms] BOOK mid_price=61172.265
+[3280 ms] TRADE_IGNORED trade_id=6903079267 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079268 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079269 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079270 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079271 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079272 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079273 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079274 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079275 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079276 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079277 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079278 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079279 order_id=milestone-2-bid reason='trade price differs from order price'
+[3281 ms] TRADE_IGNORED trade_id=6903079280 order_id=milestone-2-bid reason='trade price differs from order price'
+[3353 ms] BOOK mid_price=61169.775
+[3454 ms] BOOK mid_price=61169.775
+[3550 ms] BOOK mid_price=61169.775
+[3656 ms] BOOK mid_price=61169.775
+[3749 ms] BOOK mid_price=61169.775
+[3848 ms] BOOK mid_price=61169.775
+[3947 ms] BOOK mid_price=61169.775
+[4049 ms] BOOK mid_price=61169.775
+[4149 ms] BOOK mid_price=61169.775
+[4222 ms] CANCEL_REQUESTED order_id=milestone-2-bid
+[4237 ms] ORDER_CANCELED order_id=milestone-2-bid filled_quantity=0 btc=0.5 usdt=34225 reserved_btc=0 reserved_usdt=0
+[4252 ms] BOOK mid_price=61169.775
+[4347 ms] BOOK mid_price=61169.775
+[4449 ms] BOOK mid_price=61169.775
+[4549 ms] BOOK mid_price=61169.775
+[4560 ms] TRADE_IGNORED trade_id=6903079281 reason='no working sell order'
+[4649 ms] BOOK mid_price=61169.775
+[4750 ms] BOOK mid_price=61169.775
+[4849 ms] BOOK mid_price=61169.775
+[4949 ms] BOOK mid_price=61169.775
+[5048 ms] BOOK mid_price=61169.775
+[5149 ms] BOOK mid_price=61169.775
+[5249 ms] BOOK mid_price=61169.775
+[5319 ms] TRADE_IGNORED trade_id=6903079282 reason='no working buy order'
+[5349 ms] BOOK mid_price=61169.775
+[5448 ms] BOOK mid_price=61169.775
+[5552 ms] BOOK mid_price=61169.775
+[5589 ms] TRADE_IGNORED trade_id=6903079283 reason='no working buy order'
+[5654 ms] BOOK mid_price=61169.775
+[5758 ms] BOOK mid_price=61169.775
+[5849 ms] BOOK mid_price=61169.775
+[5949 ms] BOOK mid_price=61169.775
+[5964 ms] TRADE_IGNORED trade_id=6903079284 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079285 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079286 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079287 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079288 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079289 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079290 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079291 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079292 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079293 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079294 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079295 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079296 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079297 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079298 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079299 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079300 reason='no working buy order'
+[5964 ms] TRADE_IGNORED trade_id=6903079301 reason='no working buy order'
+[5965 ms] TRADE_IGNORED trade_id=6903079302 reason='no working buy order'
+[6049 ms] BOOK mid_price=61168.985
+[6153 ms] BOOK mid_price=61168.985
+[6254 ms] BOOK mid_price=61168.985
+[6349 ms] BOOK mid_price=61168.985
+[6453 ms] BOOK mid_price=61168.985
+[6529 ms] TRADE_IGNORED trade_id=6903079303 reason='no working sell order'
+[6553 ms] BOOK mid_price=61168.985
+[6649 ms] BOOK mid_price=61168.985
+[6755 ms] BOOK mid_price=61168.985
+[6812 ms] TRADE_IGNORED trade_id=6903079304 reason='no working sell order'
+[6850 ms] BOOK mid_price=61168.985
+[6925 ms] TRADE_IGNORED trade_id=6903079305 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079306 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079307 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079308 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079309 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079310 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079311 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079312 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079313 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079314 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079315 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079316 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079317 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079318 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079319 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079320 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079321 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079322 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079323 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079324 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079325 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079326 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079327 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079328 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079329 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079330 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079331 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079332 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079333 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079334 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079335 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079336 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079337 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079338 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079339 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079340 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079341 reason='no working buy order'
+[6925 ms] TRADE_IGNORED trade_id=6903079342 reason='no working buy order'
+[6949 ms] BOOK mid_price=61165.155
+[7055 ms] BOOK mid_price=61165.155
+[7149 ms] BOOK mid_price=61165.155
+[7250 ms] BOOK mid_price=61165.155
+[7349 ms] BOOK mid_price=61165.155
+[7449 ms] BOOK mid_price=61165.155
+[7549 ms] BOOK mid_price=61165.155
+[7649 ms] BOOK mid_price=61165.155
+[7750 ms] BOOK mid_price=61165.155
+[7849 ms] BOOK mid_price=61165.155
+[7950 ms] BOOK mid_price=61165.155
+[8049 ms] BOOK mid_price=61165.155
+[8149 ms] BOOK mid_price=61165.155
+[8249 ms] BOOK mid_price=61165.155
+[8354 ms] BOOK mid_price=61165.155
+[8449 ms] BOOK mid_price=61165.155
+[8549 ms] BOOK mid_price=61165.155
+[8649 ms] BOOK mid_price=61165.155
+[8849 ms] BOOK mid_price=61165.155
+[8947 ms] BOOK mid_price=61165.155
+[9045 ms] TRADE_IGNORED trade_id=6903079343 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079344 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079345 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079346 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079347 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079348 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079349 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079350 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079351 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079352 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079353 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079354 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079355 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079356 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079357 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079358 reason='no working sell order'
+[9045 ms] TRADE_IGNORED trade_id=6903079359 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079360 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079361 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079362 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079363 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079364 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079365 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079366 reason='no working sell order'
+[9046 ms] TRADE_IGNORED trade_id=6903079367 reason='no working sell order'
+[9055 ms] BOOK mid_price=61166.135
+[9079 ms] TRADE_IGNORED trade_id=6903079368 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079369 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079370 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079371 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079372 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079373 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079374 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079375 reason='no working sell order'
+[9079 ms] TRADE_IGNORED trade_id=6903079376 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079377 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079378 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079379 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079380 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079381 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079382 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079383 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079384 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079385 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079386 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079387 reason='no working sell order'
+[9080 ms] TRADE_IGNORED trade_id=6903079388 reason='no working sell order'
+[9154 ms] BOOK mid_price=61167.115
+[9253 ms] BOOK mid_price=61167.115
+[9283 ms] TRADE_IGNORED trade_id=6903079389 reason='no working sell order'
+[9283 ms] TRADE_IGNORED trade_id=6903079390 reason='no working sell order'
+[9283 ms] TRADE_IGNORED trade_id=6903079391 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079392 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079393 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079394 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079395 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079396 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079397 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079398 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079399 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079400 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079401 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079402 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079403 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079404 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079405 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079406 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079407 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079408 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079409 reason='no working sell order'
+[9295 ms] TRADE_IGNORED trade_id=6903079410 reason='no working sell order'
+[9296 ms] TRADE_IGNORED trade_id=6903079411 reason='no working sell order'
+[9296 ms] TRADE_IGNORED trade_id=6903079412 reason='no working sell order'
+[9296 ms] TRADE_IGNORED trade_id=6903079413 reason='no working sell order'
+[9352 ms] BOOK mid_price=61168.095
+[9450 ms] BOOK mid_price=61168.095
+[9549 ms] BOOK mid_price=61168.095
+[9584 ms] TRADE_IGNORED trade_id=6903079414 reason='no working buy order'
+[9649 ms] BOOK mid_price=61168.095
+[9748 ms] BOOK mid_price=61168.095
+[9854 ms] BOOK mid_price=61168.095
+[9949 ms] BOOK mid_price=61168.095
+[10059 ms] BOOK mid_price=61168.095
+[10149 ms] BOOK mid_price=61168.095
+[10256 ms] BOOK mid_price=61168.095
+[10352 ms] BOOK mid_price=61168.095
+[10450 ms] BOOK mid_price=61168.095
+[10549 ms] BOOK mid_price=61168.095
+[10652 ms] BOOK mid_price=61168.095
+[10748 ms] BOOK mid_price=61168.095
+[10849 ms] BOOK mid_price=61168.095
+[10949 ms] BOOK mid_price=61168.095
+[11054 ms] BOOK mid_price=61168.095
+[11149 ms] BOOK mid_price=61168.095
+[11252 ms] BOOK mid_price=61168.095
+[11347 ms] BOOK mid_price=61168.095
+[11449 ms] BOOK mid_price=61168.095
+[11494 ms] TRADE_IGNORED trade_id=6903079415 reason='no working sell order'
+[11548 ms] BOOK mid_price=61168.095
+[11649 ms] BOOK mid_price=61168.095
+[11751 ms] BOOK mid_price=61168.095
+[11854 ms] BOOK mid_price=61168.095
+[11949 ms] BOOK mid_price=61168.095
+[12059 ms] BOOK mid_price=61168.095
+[12065 ms] TRADE_IGNORED trade_id=6903079416 reason='no working sell order'
+[12153 ms] BOOK mid_price=61168.095
+[12248 ms] BOOK mid_price=61168.095
+[12354 ms] BOOK mid_price=61168.095
+[12444 ms] TRADE_IGNORED trade_id=6903079417 reason='no working buy order'
+[12455 ms] BOOK mid_price=61168.095
+[12549 ms] BOOK mid_price=61168.095
+[12647 ms] BOOK mid_price=61168.095
+[12724 ms] TRADE_IGNORED trade_id=6903079418 reason='no working buy order'
+[12749 ms] BOOK mid_price=61168.095
+[12850 ms] BOOK mid_price=61168.095
+[12897 ms] TRADE_IGNORED trade_id=6903079419 reason='no working buy order'
+[12959 ms] BOOK mid_price=61168.095
+[13054 ms] BOOK mid_price=61168.095
+[13154 ms] BOOK mid_price=61168.095
+[13155 ms] TRADE_IGNORED trade_id=6903079420 reason='no working buy order'
+[13250 ms] BOOK mid_price=61168.095
+[13354 ms] BOOK mid_price=61168.095
+[13454 ms] BOOK mid_price=61168.095
+[13548 ms] BOOK mid_price=61168.095
+[13589 ms] TRADE_IGNORED trade_id=6903079421 reason='no working buy order'
+[13649 ms] BOOK mid_price=61168.095
+[13754 ms] BOOK mid_price=61168.095
+[13850 ms] BOOK mid_price=61168.095
+[13954 ms] BOOK mid_price=61168.095
+[14052 ms] BOOK mid_price=61168.095
+[14149 ms] BOOK mid_price=61168.095
+[14254 ms] BOOK mid_price=61168.095
+[14349 ms] BOOK mid_price=61168.095
+[14451 ms] BOOK mid_price=61168.095
+[14552 ms] BOOK mid_price=61168.095
+[14654 ms] BOOK mid_price=61168.095
+[14754 ms] BOOK mid_price=61168.095
+[14847 ms] BOOK mid_price=61168.095
+[14949 ms] BOOK mid_price=61168.095
+[15049 ms] BOOK mid_price=61168.095
+[15150 ms] BOOK mid_price=61168.095
+[15254 ms] BOOK mid_price=61168.095
+[15354 ms] BOOK mid_price=61168.095
+[15449 ms] BOOK mid_price=61168.095
+[15554 ms] BOOK mid_price=61168.095
+[15559 ms] TRADE_IGNORED trade_id=6903079422 reason='no working buy order'
+[15559 ms] TRADE_IGNORED trade_id=6903079423 reason='no working buy order'
+[15559 ms] TRADE_IGNORED trade_id=6903079424 reason='no working buy order'
+[15559 ms] TRADE_IGNORED trade_id=6903079425 reason='no working buy order'
+[15559 ms] TRADE_IGNORED trade_id=6903079426 reason='no working buy order'
+[15559 ms] TRADE_IGNORED trade_id=6903079427 reason='no working buy order'
+[15559 ms] TRADE_IGNORED trade_id=6903079428 reason='no working buy order'
+[15559 ms] TRADE_IGNORED trade_id=6903079429 reason='no working buy order'
+[15649 ms] BOOK mid_price=61168.095
+[15754 ms] BOOK mid_price=61168.095
+[15849 ms] BOOK mid_price=61168.095
+[15949 ms] BOOK mid_price=61168.095
+[16051 ms] BOOK mid_price=61168.095
+[16149 ms] BOOK mid_price=61168.095
+[16249 ms] BOOK mid_price=61168.095
+[16349 ms] BOOK mid_price=61168.095
+[16449 ms] BOOK mid_price=61168.095
+[16549 ms] BOOK mid_price=61168.095
+[16654 ms] BOOK mid_price=61168.095
+[16752 ms] BOOK mid_price=61168.095
+[16854 ms] BOOK mid_price=61168.095
+[16947 ms] BOOK mid_price=61168.095
+[17052 ms] BOOK mid_price=61168.095
+[17101 ms] TRADE_IGNORED trade_id=6903079430 reason='no working buy order'
+[17101 ms] TRADE_IGNORED trade_id=6903079431 reason='no working buy order'
+[17101 ms] TRADE_IGNORED trade_id=6903079432 reason='no working buy order'
+[17154 ms] BOOK mid_price=61168.095
+[17248 ms] BOOK mid_price=61168.095
+[17270 ms] TRADE_IGNORED trade_id=6903079433 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079434 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079435 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079436 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079437 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079438 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079439 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079440 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079441 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079442 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079443 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079444 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079445 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079446 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079447 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079448 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079449 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079450 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079451 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079452 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079453 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079454 reason='no working buy order'
+[17270 ms] TRADE_IGNORED trade_id=6903079455 reason='no working buy order'
+[17349 ms] BOOK mid_price=61166.585
+[17353 ms] TRADE_IGNORED trade_id=6903079456 reason='no working buy order'
+[17353 ms] TRADE_IGNORED trade_id=6903079457 reason='no working buy order'
+[17387 ms] TRADE_IGNORED trade_id=6903079458 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079459 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079460 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079461 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079462 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079463 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079464 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079465 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079466 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079467 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079468 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079469 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079470 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079471 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079472 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079473 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079474 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079475 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079476 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079477 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079478 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079479 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079480 reason='no working buy order'
+[17388 ms] TRADE_IGNORED trade_id=6903079481 reason='no working buy order'
+[17409 ms] TRADE_IGNORED trade_id=6903079482 reason='no working sell order'
+[17435 ms] TRADE_IGNORED trade_id=6903079483 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079484 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079485 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079486 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079487 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079488 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079489 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079490 reason='no working buy order'
+[17435 ms] TRADE_IGNORED trade_id=6903079491 reason='no working buy order'
+[17454 ms] BOOK mid_price=61163.635
+[17523 ms] TRADE_IGNORED trade_id=6903079492 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079493 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079494 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079495 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079496 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079497 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079498 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079499 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079500 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079501 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079502 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079503 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079504 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079505 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079506 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079507 reason='no working buy order'
+[17523 ms] TRADE_IGNORED trade_id=6903079508 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079509 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079510 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079511 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079512 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079513 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079514 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079515 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079516 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079517 reason='no working buy order'
+[17534 ms] TRADE_IGNORED trade_id=6903079518 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079519 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079520 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079521 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079522 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079523 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079524 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079525 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079526 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079527 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079528 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079529 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079530 reason='no working buy order'
+[17539 ms] TRADE_IGNORED trade_id=6903079531 reason='no working buy order'
+[17545 ms] TRADE_IGNORED trade_id=6903079532 reason='no working buy order'
+[17545 ms] TRADE_IGNORED trade_id=6903079533 reason='no working buy order'
+[17545 ms] TRADE_IGNORED trade_id=6903079534 reason='no working buy order'
+[17545 ms] TRADE_IGNORED trade_id=6903079535 reason='no working buy order'
+[17545 ms] TRADE_IGNORED trade_id=6903079536 reason='no working buy order'
+[17551 ms] BOOK mid_price=61162.645
+[17557 ms] TRADE_IGNORED trade_id=6903079537 reason='no working buy order'
+[17557 ms] TRADE_IGNORED trade_id=6903079538 reason='no working buy order'
+[17557 ms] TRADE_IGNORED trade_id=6903079539 reason='no working buy order'
+[17557 ms] TRADE_IGNORED trade_id=6903079540 reason='no working buy order'
+[17557 ms] TRADE_IGNORED trade_id=6903079541 reason='no working buy order'
+[17557 ms] TRADE_IGNORED trade_id=6903079542 reason='no working buy order'
+[17557 ms] TRADE_IGNORED trade_id=6903079543 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079544 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079545 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079546 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079547 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079548 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079549 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079550 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079551 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079552 reason='no working buy order'
+[17578 ms] TRADE_IGNORED trade_id=6903079553 reason='no working buy order'
+[17599 ms] TRADE_IGNORED trade_id=6903079554 reason='no working buy order'
+[17599 ms] TRADE_IGNORED trade_id=6903079555 reason='no working buy order'
+[17599 ms] TRADE_IGNORED trade_id=6903079556 reason='no working buy order'
+[17599 ms] TRADE_IGNORED trade_id=6903079557 reason='no working buy order'
+[17599 ms] TRADE_IGNORED trade_id=6903079558 reason='no working buy order'
+[17599 ms] TRADE_IGNORED trade_id=6903079559 reason='no working buy order'
+[17600 ms] TRADE_IGNORED trade_id=6903079560 reason='no working buy order'
+[17600 ms] TRADE_IGNORED trade_id=6903079561 reason='no working buy order'
+[17600 ms] TRADE_IGNORED trade_id=6903079562 reason='no working buy order'
+[17600 ms] TRADE_IGNORED trade_id=6903079563 reason='no working buy order'
+[17619 ms] TRADE_IGNORED trade_id=6903079564 reason='no working buy order'
+[17619 ms] TRADE_IGNORED trade_id=6903079565 reason='no working buy order'
+[17619 ms] TRADE_IGNORED trade_id=6903079566 reason='no working buy order'
+[17619 ms] TRADE_IGNORED trade_id=6903079567 reason='no working buy order'
+[17619 ms] TRADE_IGNORED trade_id=6903079568 reason='no working buy order'
+[17619 ms] TRADE_IGNORED trade_id=6903079569 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079570 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079571 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079572 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079573 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079574 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079575 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079576 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079577 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079578 reason='no working buy order'
+[17620 ms] TRADE_IGNORED trade_id=6903079579 reason='no working buy order'
+[17654 ms] BOOK mid_price=61155.835
+[17749 ms] BOOK mid_price=61155.835
+[17829 ms] TRADE_IGNORED trade_id=6903079580 reason='no working sell order'
+[17849 ms] BOOK mid_price=61155.835
+[17948 ms] BOOK mid_price=61155.835
+[18054 ms] BOOK mid_price=61155.835
+[18134 ms] TRADE_IGNORED trade_id=6903079581 reason='no working buy order'
+[18134 ms] TRADE_IGNORED trade_id=6903079582 reason='no working buy order'
+[18134 ms] TRADE_IGNORED trade_id=6903079583 reason='no working buy order'
+[18154 ms] BOOK mid_price=61155.835
+[18156 ms] TRADE_IGNORED trade_id=6903079584 reason='no working buy order'
+[18163 ms] TRADE_IGNORED trade_id=6903079585 reason='no working buy order'
+[18248 ms] BOOK mid_price=61155.835
+[18349 ms] BOOK mid_price=61155.835
+[18374 ms] TRADE_IGNORED trade_id=6903079586 reason='no working buy order'
+[18374 ms] TRADE_IGNORED trade_id=6903079587 reason='no working buy order'
+[18447 ms] BOOK mid_price=61155.835
+[18555 ms] BOOK mid_price=61155.835
+[18649 ms] BOOK mid_price=61155.835
+[18759 ms] BOOK mid_price=61155.835
+[18849 ms] BOOK mid_price=61155.835
+[18949 ms] BOOK mid_price=61155.835
+[19049 ms] BOOK mid_price=61155.835
+[19249 ms] BOOK mid_price=61155.835
+[19349 ms] BOOK mid_price=61155.835
+[19431 ms] TRADE_IGNORED trade_id=6903079588 reason='no working buy order'
+[19431 ms] TRADE_IGNORED trade_id=6903079589 reason='no working buy order'
+[19431 ms] TRADE_IGNORED trade_id=6903079590 reason='no working buy order'
+[19431 ms] TRADE_IGNORED trade_id=6903079591 reason='no working buy order'
+[19431 ms] TRADE_IGNORED trade_id=6903079592 reason='no working buy order'
+[19431 ms] TRADE_IGNORED trade_id=6903079593 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079594 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079595 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079596 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079597 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079598 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079599 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079600 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079601 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079602 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079603 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079604 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079605 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079606 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079607 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079608 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079609 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079610 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079611 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079612 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079613 reason='no working buy order'
+[19432 ms] TRADE_IGNORED trade_id=6903079614 reason='no working buy order'
+[19453 ms] BOOK mid_price=61154.305
+[19475 ms] TRADE_IGNORED trade_id=6903079615 reason='no working buy order'
+[19475 ms] TRADE_IGNORED trade_id=6903079616 reason='no working buy order'
+[19475 ms] TRADE_IGNORED trade_id=6903079617 reason='no working buy order'
+[19475 ms] TRADE_IGNORED trade_id=6903079618 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079619 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079620 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079621 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079622 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079623 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079624 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079625 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079626 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079627 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079628 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079629 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079630 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079631 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079632 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079633 reason='no working buy order'
+[19476 ms] TRADE_IGNORED trade_id=6903079634 reason='no working buy order'
+[19554 ms] BOOK mid_price=61153.845
+[19649 ms] BOOK mid_price=61153.845
+[19749 ms] BOOK mid_price=61153.845
+[19849 ms] BOOK mid_price=61153.845
+[19917 ms] TRADE_IGNORED trade_id=6903079635 reason='no working sell order'
+[19949 ms] BOOK mid_price=61153.845
+[20050 ms] BOOK mid_price=61153.845
+[20149 ms] BOOK mid_price=61153.845
+[20249 ms] BOOK mid_price=61153.845
+[20348 ms] BOOK mid_price=61153.845
+[20459 ms] BOOK mid_price=61153.845
+[20549 ms] BOOK mid_price=61153.845
+[20649 ms] BOOK mid_price=61153.845
+[20750 ms] BOOK mid_price=61153.845
+[20853 ms] BOOK mid_price=61153.845
+[20949 ms] BOOK mid_price=61153.845
+[20983 ms] TRADE_IGNORED trade_id=6903079636 reason='no working sell order'
+[21051 ms] BOOK mid_price=61153.845
+[21159 ms] BOOK mid_price=61153.845
+[21255 ms] BOOK mid_price=61153.845
+[21359 ms] BOOK mid_price=61153.845
+[21447 ms] BOOK mid_price=61153.845
+[21550 ms] BOOK mid_price=61153.845
+[21601 ms] TRADE_IGNORED trade_id=6903079637 reason='no working buy order'
+[21601 ms] TRADE_IGNORED trade_id=6903079638 reason='no working buy order'
+[21601 ms] TRADE_IGNORED trade_id=6903079639 reason='no working buy order'
+[21601 ms] TRADE_IGNORED trade_id=6903079640 reason='no working buy order'
+[21601 ms] TRADE_IGNORED trade_id=6903079641 reason='no working buy order'
+[21601 ms] TRADE_IGNORED trade_id=6903079642 reason='no working buy order'
+[21601 ms] TRADE_IGNORED trade_id=6903079643 reason='no working buy order'
+[21602 ms] TRADE_IGNORED trade_id=6903079644 reason='no working buy order'
+[21602 ms] TRADE_IGNORED trade_id=6903079645 reason='no working buy order'
+[21602 ms] TRADE_IGNORED trade_id=6903079646 reason='no working buy order'
+[21602 ms] TRADE_IGNORED trade_id=6903079647 reason='no working buy order'
+[21605 ms] TRADE_IGNORED trade_id=6903079648 reason='no working buy order'
+[21606 ms] TRADE_IGNORED trade_id=6903079649 reason='no working buy order'
+[21653 ms] BOOK mid_price=61153.845
+[21708 ms] TRADE_IGNORED trade_id=6903079650 reason='no working buy order'
+[21745 ms] TRADE_IGNORED trade_id=6903079651 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079652 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079653 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079654 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079655 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079656 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079657 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079658 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079659 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079660 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079661 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079662 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079663 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079664 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079665 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079666 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079667 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079668 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079669 reason='no working buy order'
+[21746 ms] TRADE_IGNORED trade_id=6903079670 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079671 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079672 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079673 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079674 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079675 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079676 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079677 reason='no working buy order'
+[21747 ms] TRADE_IGNORED trade_id=6903079678 reason='no working buy order'
+[21751 ms] BOOK mid_price=61152.695
+[21819 ms] TRADE_IGNORED trade_id=6903079679 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079680 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079681 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079682 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079683 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079684 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079685 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079686 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079687 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079688 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079689 reason='no working buy order'
+[21819 ms] TRADE_IGNORED trade_id=6903079690 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079691 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079692 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079693 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079694 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079695 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079696 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079697 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079698 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079699 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079700 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079701 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079702 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079703 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079704 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079705 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079706 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079707 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079708 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079709 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079710 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079711 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079712 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079713 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079714 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079715 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079716 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079717 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079718 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079719 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079720 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079721 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079722 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079723 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079724 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079725 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079726 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079727 reason='no working buy order'
+[21820 ms] TRADE_IGNORED trade_id=6903079728 reason='no working buy order'
+[21849 ms] BOOK mid_price=61150.005
+[21949 ms] BOOK mid_price=61150.005
+[22049 ms] BOOK mid_price=61150.005
+[22154 ms] BOOK mid_price=61150.005
+[22230 ms] TRADE_IGNORED trade_id=6903079729 reason='no working buy order'
+[22235 ms] TRADE_IGNORED trade_id=6903079730 reason='no working buy order'
+[22235 ms] TRADE_IGNORED trade_id=6903079731 reason='no working buy order'
+[22235 ms] TRADE_IGNORED trade_id=6903079732 reason='no working buy order'
+[22243 ms] TRADE_IGNORED trade_id=6903079733 reason='no working buy order'
+[22243 ms] TRADE_IGNORED trade_id=6903079734 reason='no working buy order'
+[22243 ms] TRADE_IGNORED trade_id=6903079735 reason='no working buy order'
+[22247 ms] TRADE_IGNORED trade_id=6903079736 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079737 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079738 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079739 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079740 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079741 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079742 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079743 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079744 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079745 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079746 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079747 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079748 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079749 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079750 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079751 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079752 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079753 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079754 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079755 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079756 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079757 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079758 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079759 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079760 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079761 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079762 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079763 reason='no working buy order'
+[22248 ms] TRADE_IGNORED trade_id=6903079764 reason='no working buy order'
+[22253 ms] BOOK mid_price=61148.155
+[22254 ms] TRADE_IGNORED trade_id=6903079765 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079766 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079767 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079768 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079769 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079770 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079771 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079772 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079773 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079774 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079775 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079776 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079777 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079778 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079779 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079780 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079781 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079782 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079783 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079784 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079785 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079786 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079787 reason='no working buy order'
+[22254 ms] TRADE_IGNORED trade_id=6903079788 reason='no working buy order'
+[22348 ms] BOOK mid_price=61147.725
+[22448 ms] BOOK mid_price=61147.725
+[22550 ms] BOOK mid_price=61147.725
+[22648 ms] BOOK mid_price=61147.725
+[22704 ms] TRADE_IGNORED trade_id=6903079789 reason='no working buy order'
+[22745 ms] TRADE_IGNORED trade_id=6903079790 reason='no working buy order'
+[22750 ms] BOOK mid_price=61147.725
+[22847 ms] BOOK mid_price=61147.725
+[22953 ms] BOOK mid_price=61147.725
+[23054 ms] BOOK mid_price=61147.725
+[23153 ms] BOOK mid_price=61147.725
+[23248 ms] BOOK mid_price=61147.725
+[23349 ms] BOOK mid_price=61147.725
+[23349 ms] TRADE_IGNORED trade_id=6903079791 reason='no working sell order'
+[23453 ms] BOOK mid_price=61147.725
+[23553 ms] BOOK mid_price=61147.725
+[23655 ms] BOOK mid_price=61147.725
+[23754 ms] BOOK mid_price=61147.725
+[23801 ms] TRADE_IGNORED trade_id=6903079792 reason='no working buy order'
+[23857 ms] BOOK mid_price=61147.725
+[23955 ms] BOOK mid_price=61147.725
+[23958 ms] TRADE_IGNORED trade_id=6903079793 reason='no working buy order'
+[24052 ms] BOOK mid_price=61147.725
+[24155 ms] BOOK mid_price=61147.725
+[24256 ms] BOOK mid_price=61147.725
+[24355 ms] BOOK mid_price=61147.725
+[24447 ms] BOOK mid_price=61147.725
+[24553 ms] BOOK mid_price=61147.725
+[24558 ms] TRADE_IGNORED trade_id=6903079794 reason='no working sell order'
+[24653 ms] BOOK mid_price=61147.725
+[24756 ms] BOOK mid_price=61147.725
+[24853 ms] BOOK mid_price=61147.725
+[24929 ms] TRADE_IGNORED trade_id=6903079795 reason='no working buy order'
+[24956 ms] BOOK mid_price=61147.725
+[24999 ms] TRADE_IGNORED trade_id=6903079796 reason='no working buy order'
+[25053 ms] BOOK mid_price=61147.725
+[25149 ms] BOOK mid_price=61147.725
+[25255 ms] BOOK mid_price=61147.725
+[25349 ms] BOOK mid_price=61147.725
+[25451 ms] BOOK mid_price=61147.725
+[25553 ms] BOOK mid_price=61147.725
+[25656 ms] BOOK mid_price=61147.725
+[25711 ms] TRADE_IGNORED trade_id=6903079797 reason='no working buy order'
+[25754 ms] BOOK mid_price=61147.725
+[25855 ms] BOOK mid_price=61147.725
+[25916 ms] TRADE_IGNORED trade_id=6903079798 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079799 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079800 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079801 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079802 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079803 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079804 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079805 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079806 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079807 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079808 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079809 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079810 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079811 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079812 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079813 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079814 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079815 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079816 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079817 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079818 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079819 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079820 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079821 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079822 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079823 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079824 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079825 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079826 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079827 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079828 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079829 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079830 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079831 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079832 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079833 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079834 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079835 reason='no working buy order'
+[25916 ms] TRADE_IGNORED trade_id=6903079836 reason='no working buy order'
+[25917 ms] TRADE_IGNORED trade_id=6903079837 reason='no working buy order'
+[25917 ms] TRADE_IGNORED trade_id=6903079838 reason='no working buy order'
+[25917 ms] TRADE_IGNORED trade_id=6903079839 reason='no working buy order'
+[25917 ms] TRADE_IGNORED trade_id=6903079840 reason='no working buy order'
+[25917 ms] TRADE_IGNORED trade_id=6903079841 reason='no working buy order'
+[25917 ms] TRADE_IGNORED trade_id=6903079842 reason='no working buy order'
+[25921 ms] TRADE_IGNORED trade_id=6903079843 reason='no working buy order'
+[25921 ms] TRADE_IGNORED trade_id=6903079844 reason='no working buy order'
+[25921 ms] TRADE_IGNORED trade_id=6903079845 reason='no working buy order'
+[25921 ms] TRADE_IGNORED trade_id=6903079846 reason='no working buy order'
+[25921 ms] TRADE_IGNORED trade_id=6903079847 reason='no working buy order'
+[25921 ms] TRADE_IGNORED trade_id=6903079848 reason='no working buy order'
+[25922 ms] TRADE_IGNORED trade_id=6903079849 reason='no working buy order'
+[25922 ms] TRADE_IGNORED trade_id=6903079850 reason='no working buy order'
+[25922 ms] TRADE_IGNORED trade_id=6903079851 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079852 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079853 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079854 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079855 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079856 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079857 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079858 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079859 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079860 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079861 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079862 reason='no working buy order'
+[25935 ms] TRADE_IGNORED trade_id=6903079863 reason='no working buy order'
+[25939 ms] TRADE_IGNORED trade_id=6903079864 reason='no working buy order'
+[25939 ms] TRADE_IGNORED trade_id=6903079865 reason='no working buy order'
+[25939 ms] TRADE_IGNORED trade_id=6903079866 reason='no working buy order'
+[25939 ms] TRADE_IGNORED trade_id=6903079867 reason='no working buy order'
+[25939 ms] TRADE_IGNORED trade_id=6903079868 reason='no working buy order'
+[25939 ms] TRADE_IGNORED trade_id=6903079869 reason='no working buy order'
+[25939 ms] TRADE_IGNORED trade_id=6903079870 reason='no working buy order'
+[25949 ms] BOOK mid_price=61144.415
+[25962 ms] TRADE_IGNORED trade_id=6903079871 reason='no working buy order'
+[25962 ms] TRADE_IGNORED trade_id=6903079872 reason='no working buy order'
+[25962 ms] TRADE_IGNORED trade_id=6903079873 reason='no working buy order'
+[25962 ms] TRADE_IGNORED trade_id=6903079874 reason='no working buy order'
+[25962 ms] TRADE_IGNORED trade_id=6903079875 reason='no working buy order'
+[25967 ms] TRADE_IGNORED trade_id=6903079876 reason='no working buy order'
+[25985 ms] TRADE_IGNORED trade_id=6903079877 reason='no working buy order'
+[25985 ms] TRADE_IGNORED trade_id=6903079878 reason='no working buy order'
+[25985 ms] TRADE_IGNORED trade_id=6903079879 reason='no working buy order'
+[25986 ms] TRADE_IGNORED trade_id=6903079880 reason='no working buy order'
+[25986 ms] TRADE_IGNORED trade_id=6903079881 reason='no working buy order'
+[25986 ms] TRADE_IGNORED trade_id=6903079882 reason='no working buy order'
+[25986 ms] TRADE_IGNORED trade_id=6903079883 reason='no working buy order'
+[25986 ms] TRADE_IGNORED trade_id=6903079884 reason='no working buy order'
+[25994 ms] TRADE_IGNORED trade_id=6903079885 reason='no working buy order'
+[25994 ms] TRADE_IGNORED trade_id=6903079886 reason='no working buy order'
+[25994 ms] TRADE_IGNORED trade_id=6903079887 reason='no working buy order'
+[25995 ms] TRADE_IGNORED trade_id=6903079888 reason='no working buy order'
+[25995 ms] TRADE_IGNORED trade_id=6903079889 reason='no working buy order'
+[25995 ms] TRADE_IGNORED trade_id=6903079890 reason='no working buy order'
+[25995 ms] TRADE_IGNORED trade_id=6903079891 reason='no working buy order'
+[25995 ms] TRADE_IGNORED trade_id=6903079892 reason='no working buy order'
+[25995 ms] TRADE_IGNORED trade_id=6903079893 reason='no working buy order'
+[26005 ms] TRADE_IGNORED trade_id=6903079894 reason='no working buy order'
+[26005 ms] TRADE_IGNORED trade_id=6903079895 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079896 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079897 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079898 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079899 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079900 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079901 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079902 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079903 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079904 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079905 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079906 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079907 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079908 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079909 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079910 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079911 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079912 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079913 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079914 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079915 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079916 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079917 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079918 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079919 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079920 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079921 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079922 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079923 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079924 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079925 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079926 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079927 reason='no working buy order'
+[26006 ms] TRADE_IGNORED trade_id=6903079928 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079929 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079930 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079931 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079932 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079933 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079934 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079935 reason='no working buy order'
+[26007 ms] TRADE_IGNORED trade_id=6903079936 reason='no working buy order'
+[26041 ms] TRADE_IGNORED trade_id=6903079937 reason='no working sell order'
+[26041 ms] TRADE_IGNORED trade_id=6903079938 reason='no working sell order'
+[26053 ms] BOOK mid_price=61128.675
+[26109 ms] TRADE_IGNORED trade_id=6903079939 reason='no working buy order'
+[26151 ms] BOOK mid_price=61128.675
+[26258 ms] BOOK mid_price=61128.675
+[26354 ms] BOOK mid_price=61128.675
+[26448 ms] BOOK mid_price=61128.675
+[26550 ms] BOOK mid_price=61128.675
+[26648 ms] BOOK mid_price=61128.675
+[26748 ms] BOOK mid_price=61128.675
+[26813 ms] TRADE_IGNORED trade_id=6903079940 reason='no working buy order'
+[26814 ms] TRADE_IGNORED trade_id=6903079941 reason='no working buy order'
+[26814 ms] TRADE_IGNORED trade_id=6903079942 reason='no working buy order'
+[26814 ms] TRADE_IGNORED trade_id=6903079943 reason='no working buy order'
+[26814 ms] TRADE_IGNORED trade_id=6903079944 reason='no working buy order'
+[26814 ms] TRADE_IGNORED trade_id=6903079945 reason='no working buy order'
+[26814 ms] TRADE_IGNORED trade_id=6903079946 reason='no working buy order'
+[26814 ms] TRADE_IGNORED trade_id=6903079947 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079948 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079949 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079950 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079951 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079952 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079953 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079954 reason='no working buy order'
+[26825 ms] TRADE_IGNORED trade_id=6903079955 reason='no working buy order'
+[26831 ms] TRADE_IGNORED trade_id=6903079956 reason='no working buy order'
+[26831 ms] TRADE_IGNORED trade_id=6903079957 reason='no working buy order'
+[26831 ms] TRADE_IGNORED trade_id=6903079958 reason='no working buy order'
+[26831 ms] TRADE_IGNORED trade_id=6903079959 reason='no working buy order'
+[26831 ms] TRADE_IGNORED trade_id=6903079960 reason='no working buy order'
+[26831 ms] TRADE_IGNORED trade_id=6903079961 reason='no working buy order'
+[26831 ms] TRADE_IGNORED trade_id=6903079962 reason='no working buy order'
+[26849 ms] TRADE_IGNORED trade_id=6903079963 reason='no working buy order'
+[26849 ms] TRADE_IGNORED trade_id=6903079964 reason='no working buy order'
+[26849 ms] TRADE_IGNORED trade_id=6903079965 reason='no working buy order'
+[26849 ms] TRADE_IGNORED trade_id=6903079966 reason='no working buy order'
+[26849 ms] TRADE_IGNORED trade_id=6903079967 reason='no working buy order'
+[26849 ms] BOOK mid_price=61128.66
+[26850 ms] TRADE_IGNORED trade_id=6903079968 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079969 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079970 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079971 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079972 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079973 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079974 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079975 reason='no working buy order'
+[26855 ms] TRADE_IGNORED trade_id=6903079976 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079977 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079978 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079979 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079980 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079981 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079982 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079983 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079984 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079985 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079986 reason='no working buy order'
+[26891 ms] TRADE_IGNORED trade_id=6903079987 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079988 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079989 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079990 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079991 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079992 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079993 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079994 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079995 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079996 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079997 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079998 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903079999 reason='no working buy order'
+[26892 ms] TRADE_IGNORED trade_id=6903080000 reason='no working buy order'
+[26955 ms] BOOK mid_price=61125.485
+[27049 ms] BOOK mid_price=61125.485
+[27149 ms] BOOK mid_price=61125.485
+[27249 ms] BOOK mid_price=61125.485
+[27350 ms] BOOK mid_price=61125.485
+[27449 ms] BOOK mid_price=61125.485
+[27450 ms] TRADE_IGNORED trade_id=6903080001 reason='no working buy order'
+[27450 ms] TRADE_IGNORED trade_id=6903080002 reason='no working buy order'
+[27450 ms] TRADE_IGNORED trade_id=6903080003 reason='no working buy order'
+[27450 ms] TRADE_IGNORED trade_id=6903080004 reason='no working buy order'
+[27450 ms] TRADE_IGNORED trade_id=6903080005 reason='no working buy order'
+[27450 ms] TRADE_IGNORED trade_id=6903080006 reason='no working buy order'
+[27450 ms] TRADE_IGNORED trade_id=6903080007 reason='no working buy order'
+[27450 ms] TRADE_IGNORED trade_id=6903080008 reason='no working buy order'
+[27504 ms] TRADE_IGNORED trade_id=6903080009 reason='no working buy order'
+[27504 ms] TRADE_IGNORED trade_id=6903080010 reason='no working buy order'
+[27504 ms] TRADE_IGNORED trade_id=6903080011 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080012 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080013 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080014 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080015 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080016 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080017 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080018 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080019 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080020 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080021 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080022 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080023 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080024 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080025 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080026 reason='no working buy order'
+[27505 ms] TRADE_IGNORED trade_id=6903080027 reason='no working buy order'
+[27509 ms] TRADE_IGNORED trade_id=6903080028 reason='no working buy order'
+[27509 ms] TRADE_IGNORED trade_id=6903080029 reason='no working buy order'
+[27509 ms] TRADE_IGNORED trade_id=6903080030 reason='no working buy order'
+[27509 ms] TRADE_IGNORED trade_id=6903080031 reason='no working buy order'
+[27509 ms] TRADE_IGNORED trade_id=6903080032 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080033 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080034 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080035 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080036 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080037 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080038 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080039 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080040 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080041 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080042 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080043 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080044 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080045 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080046 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080047 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080048 reason='no working buy order'
+[27515 ms] TRADE_IGNORED trade_id=6903080049 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080050 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080051 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080052 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080053 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080054 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080055 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080056 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080057 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080058 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080059 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080060 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080061 reason='no working buy order'
+[27521 ms] TRADE_IGNORED trade_id=6903080062 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080063 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080064 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080065 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080066 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080067 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080068 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080069 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080070 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080071 reason='no working buy order'
+[27527 ms] TRADE_IGNORED trade_id=6903080072 reason='no working buy order'
+[27539 ms] TRADE_IGNORED trade_id=6903080073 reason='no working buy order'
+[27540 ms] TRADE_IGNORED trade_id=6903080074 reason='no working buy order'
+[27540 ms] TRADE_IGNORED trade_id=6903080075 reason='no working buy order'
+[27540 ms] TRADE_IGNORED trade_id=6903080076 reason='no working buy order'
+[27540 ms] TRADE_IGNORED trade_id=6903080077 reason='no working buy order'
+[27540 ms] TRADE_IGNORED trade_id=6903080078 reason='no working buy order'
+[27540 ms] TRADE_IGNORED trade_id=6903080079 reason='no working buy order'
+[27545 ms] TRADE_IGNORED trade_id=6903080080 reason='no working buy order'
+[27545 ms] TRADE_IGNORED trade_id=6903080081 reason='no working buy order'
+[27545 ms] TRADE_IGNORED trade_id=6903080082 reason='no working buy order'
+[27545 ms] TRADE_IGNORED trade_id=6903080083 reason='no working buy order'
+[27545 ms] TRADE_IGNORED trade_id=6903080084 reason='no working buy order'
+[27545 ms] TRADE_IGNORED trade_id=6903080085 reason='no working buy order'
+[27551 ms] TRADE_IGNORED trade_id=6903080086 reason='no working buy order'
+[27551 ms] TRADE_IGNORED trade_id=6903080087 reason='no working buy order'
+[27551 ms] TRADE_IGNORED trade_id=6903080088 reason='no working buy order'
+[27551 ms] TRADE_IGNORED trade_id=6903080089 reason='no working buy order'
+[27551 ms] TRADE_IGNORED trade_id=6903080090 reason='no working buy order'
+[27551 ms] TRADE_IGNORED trade_id=6903080091 reason='no working buy order'
+[27551 ms] BOOK mid_price=61125.455
+[27553 ms] TRADE_IGNORED trade_id=6903080092 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080093 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080094 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080095 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080096 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080097 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080098 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080099 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080100 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080101 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080102 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080103 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080104 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080105 reason='no working buy order'
+[27553 ms] TRADE_IGNORED trade_id=6903080106 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080107 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080108 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080109 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080110 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080111 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080112 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080113 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080114 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080115 reason='no working buy order'
+[27559 ms] TRADE_IGNORED trade_id=6903080116 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080117 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080118 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080119 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080120 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080121 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080122 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080123 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080124 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080125 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080126 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080127 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080128 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080129 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080130 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080131 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080132 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080133 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080134 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080135 reason='no working buy order'
+[27565 ms] TRADE_IGNORED trade_id=6903080136 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080137 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080138 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080139 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080140 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080141 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080142 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080143 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080144 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080145 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080146 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080147 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080148 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080149 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080150 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080151 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080152 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080153 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080154 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080155 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080156 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080157 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080158 reason='no working buy order'
+[27571 ms] TRADE_IGNORED trade_id=6903080159 reason='no working buy order'
+[27572 ms] TRADE_IGNORED trade_id=6903080160 reason='no working buy order'
+[27572 ms] TRADE_IGNORED trade_id=6903080161 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080162 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080163 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080164 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080165 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080166 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080167 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080168 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080169 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080170 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080171 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080172 reason='no working buy order'
+[27577 ms] TRADE_IGNORED trade_id=6903080173 reason='no working buy order'
+[27583 ms] TRADE_IGNORED trade_id=6903080174 reason='no working buy order'
+[27583 ms] TRADE_IGNORED trade_id=6903080175 reason='no working buy order'
+[27583 ms] TRADE_IGNORED trade_id=6903080176 reason='no working buy order'
+[27583 ms] TRADE_IGNORED trade_id=6903080177 reason='no working buy order'
+[27583 ms] TRADE_IGNORED trade_id=6903080178 reason='no working buy order'
+[27583 ms] TRADE_IGNORED trade_id=6903080179 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080180 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080181 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080182 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080183 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080184 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080185 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080186 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080187 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080188 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080189 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080190 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080191 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080192 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080193 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080194 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080195 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080196 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080197 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080198 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080199 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080200 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080201 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080202 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080203 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080204 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080205 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080206 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080207 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080208 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080209 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080210 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080211 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080212 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080213 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080214 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080215 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080216 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080217 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080218 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080219 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080220 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080221 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080222 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080223 reason='no working buy order'
+[27598 ms] TRADE_IGNORED trade_id=6903080224 reason='no working buy order'
+[27599 ms] TRADE_IGNORED trade_id=6903080225 reason='no working buy order'
+[27599 ms] TRADE_IGNORED trade_id=6903080226 reason='no working buy order'
+[27599 ms] TRADE_IGNORED trade_id=6903080227 reason='no working buy order'
+[27599 ms] TRADE_IGNORED trade_id=6903080228 reason='no working buy order'
+[27599 ms] TRADE_IGNORED trade_id=6903080229 reason='no working buy order'
+[27599 ms] TRADE_IGNORED trade_id=6903080230 reason='no working buy order'
+[27599 ms] TRADE_IGNORED trade_id=6903080231 reason='no working buy order'
+[27649 ms] BOOK mid_price=61120.945
+[27765 ms] BOOK mid_price=61120.945
+[27851 ms] BOOK mid_price=61120.945
+[27955 ms] BOOK mid_price=61120.945
+[28050 ms] BOOK mid_price=61120.945
+[28149 ms] BOOK mid_price=61120.945
+[28245 ms] TRADE_IGNORED trade_id=6903080232 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080233 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080234 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080235 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080236 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080237 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080238 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080239 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080240 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080241 reason='no working buy order'
+[28245 ms] TRADE_IGNORED trade_id=6903080242 reason='no working buy order'
+[28251 ms] BOOK mid_price=61120.935
+[28257 ms] TRADE_IGNORED trade_id=6903080243 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080244 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080245 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080246 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080247 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080248 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080249 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080250 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080251 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080252 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080253 reason='no working buy order'
+[28257 ms] TRADE_IGNORED trade_id=6903080254 reason='no working buy order'
+[28354 ms] BOOK mid_price=61120.925
+[28449 ms] BOOK mid_price=61120.925
+[28548 ms] BOOK mid_price=61120.925
+[28649 ms] BOOK mid_price=61120.925
+[28755 ms] BOOK mid_price=61120.925
+[28853 ms] BOOK mid_price=61120.925
+[28949 ms] BOOK mid_price=61120.925
+[29051 ms] BOOK mid_price=61120.925
+[29149 ms] BOOK mid_price=61120.925
+[29257 ms] BOOK mid_price=61120.925
+[29349 ms] BOOK mid_price=61120.925
+[29455 ms] BOOK mid_price=61120.925
+[29551 ms] BOOK mid_price=61120.925
+[29649 ms] BOOK mid_price=61120.925
+[29679 ms] TRADE_IGNORED trade_id=6903080255 reason='no working buy order'
+[29749 ms] BOOK mid_price=61120.925
+[29854 ms] BOOK mid_price=61120.925
+[29954 ms] BOOK mid_price=61120.925
+[30054 ms] BOOK mid_price=61120.925
+[30149 ms] BOOK mid_price=61120.925
+[30249 ms] BOOK mid_price=61120.925
+[30350 ms] BOOK mid_price=61120.925
+[30405 ms] TRADE_IGNORED trade_id=6903080256 reason='no working buy order'
+[30454 ms] BOOK mid_price=61120.925
+[30550 ms] BOOK mid_price=61120.925
+[30561 ms] TRADE_IGNORED trade_id=6903080257 reason='no working buy order'
+[30561 ms] TRADE_IGNORED trade_id=6903080258 reason='no working buy order'
+[30648 ms] BOOK mid_price=61120.925
+[30749 ms] BOOK mid_price=61120.925
+[30849 ms] BOOK mid_price=61120.925
+[30918 ms] TRADE_IGNORED trade_id=6903080259 reason='no working buy order'
+[30949 ms] BOOK mid_price=61120.925
+[31054 ms] BOOK mid_price=61120.925
+[31149 ms] BOOK mid_price=61120.925
+[31249 ms] BOOK mid_price=61120.925
+[31348 ms] BOOK mid_price=61120.925
+[31448 ms] BOOK mid_price=61120.925
+[31554 ms] BOOK mid_price=61120.925
+[31649 ms] BOOK mid_price=61120.925
+[31749 ms] BOOK mid_price=61120.925
+[31854 ms] BOOK mid_price=61120.925
+[31949 ms] BOOK mid_price=61120.925
+[31989 ms] TRADE_IGNORED trade_id=6903080260 reason='no working buy order'
+[32049 ms] BOOK mid_price=61120.925
+[32149 ms] BOOK mid_price=61120.925
+[32184 ms] TRADE_IGNORED trade_id=6903080261 reason='no working buy order'
+[32255 ms] BOOK mid_price=61120.925
+[32330 ms] TRADE_IGNORED trade_id=6903080262 reason='no working sell order'
+[32348 ms] BOOK mid_price=61120.925
+[32449 ms] BOOK mid_price=61120.925
+[32548 ms] BOOK mid_price=61120.925
+[32649 ms] BOOK mid_price=61120.925
+[32771 ms] BOOK mid_price=61120.925
+[32851 ms] BOOK mid_price=61120.925
+[32947 ms] BOOK mid_price=61120.925
+[33049 ms] BOOK mid_price=61120.925
+[33154 ms] BOOK mid_price=61120.925
+[33252 ms] BOOK mid_price=61120.925
+[33349 ms] BOOK mid_price=61120.925
+[33455 ms] BOOK mid_price=61120.925
+[33549 ms] BOOK mid_price=61120.925
+[33649 ms] BOOK mid_price=61120.925
+[33655 ms] TRADE_IGNORED trade_id=6903080263 reason='no working buy order'
+[33655 ms] TRADE_IGNORED trade_id=6903080264 reason='no working buy order'
+[33680 ms] TRADE_IGNORED trade_id=6903080265 reason='no working buy order'
+[33680 ms] TRADE_IGNORED trade_id=6903080266 reason='no working buy order'
+[33680 ms] TRADE_IGNORED trade_id=6903080267 reason='no working buy order'
+[33685 ms] TRADE_IGNORED trade_id=6903080268 reason='no working buy order'
+[33685 ms] TRADE_IGNORED trade_id=6903080269 reason='no working buy order'
+[33685 ms] TRADE_IGNORED trade_id=6903080270 reason='no working buy order'
+[33685 ms] TRADE_IGNORED trade_id=6903080271 reason='no working buy order'
+[33685 ms] TRADE_IGNORED trade_id=6903080272 reason='no working buy order'
+[33685 ms] TRADE_IGNORED trade_id=6903080273 reason='no working buy order'
+[33685 ms] TRADE_IGNORED trade_id=6903080274 reason='no working buy order'
+[33691 ms] TRADE_IGNORED trade_id=6903080275 reason='no working buy order'
+[33691 ms] TRADE_IGNORED trade_id=6903080276 reason='no working buy order'
+[33691 ms] TRADE_IGNORED trade_id=6903080277 reason='no working buy order'
+[33691 ms] TRADE_IGNORED trade_id=6903080278 reason='no working buy order'
+[33691 ms] TRADE_IGNORED trade_id=6903080279 reason='no working buy order'
+[33691 ms] TRADE_IGNORED trade_id=6903080280 reason='no working buy order'
+[33715 ms] TRADE_IGNORED trade_id=6903080281 reason='no working buy order'
+[33715 ms] TRADE_IGNORED trade_id=6903080282 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080283 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080284 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080285 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080286 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080287 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080288 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080289 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080290 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080291 reason='no working buy order'
+[33719 ms] TRADE_IGNORED trade_id=6903080292 reason='no working buy order'
+[33725 ms] TRADE_IGNORED trade_id=6903080293 reason='no working buy order'
+[33725 ms] TRADE_IGNORED trade_id=6903080294 reason='no working buy order'
+[33725 ms] TRADE_IGNORED trade_id=6903080295 reason='no working buy order'
+[33725 ms] TRADE_IGNORED trade_id=6903080296 reason='no working buy order'
+[33725 ms] TRADE_IGNORED trade_id=6903080297 reason='no working buy order'
+[33749 ms] BOOK mid_price=61120.005
+[33859 ms] BOOK mid_price=61120.005
+[33949 ms] BOOK mid_price=61120.005
+[34051 ms] BOOK mid_price=61120.005
+[34149 ms] BOOK mid_price=61120.005
+[34255 ms] BOOK mid_price=61120.005
+[34355 ms] BOOK mid_price=61120.005
+[34397 ms] TRADE_IGNORED trade_id=6903080298 reason='no working buy order'
+[34397 ms] TRADE_IGNORED trade_id=6903080299 reason='no working buy order'
+[34450 ms] BOOK mid_price=61120.005
+[34550 ms] BOOK mid_price=61120.005
+[34649 ms] BOOK mid_price=61120.005
+[34750 ms] BOOK mid_price=61120.005
+[34817 ms] TRADE_IGNORED trade_id=6903080300 reason='no working buy order'
+[34817 ms] TRADE_IGNORED trade_id=6903080301 reason='no working buy order'
+[34849 ms] BOOK mid_price=61120.005
+[34947 ms] BOOK mid_price=61120.005
+[35049 ms] BOOK mid_price=61120.005
+[35149 ms] BOOK mid_price=61120.005
+[35228 ms] TRADE_IGNORED trade_id=6903080302 reason='no working buy order'
+[35253 ms] BOOK mid_price=61120.005
+[35351 ms] BOOK mid_price=61120.005
+[35449 ms] BOOK mid_price=61120.005
+[35549 ms] BOOK mid_price=61120.005
+[35562 ms] TRADE_IGNORED trade_id=6903080303 reason='no working sell order'
+[35650 ms] BOOK mid_price=61120.005
+[35755 ms] BOOK mid_price=61120.005
+[35854 ms] BOOK mid_price=61120.005
+[35949 ms] BOOK mid_price=61120.005
+[36050 ms] BOOK mid_price=61120.005
+[36074 ms] TRADE_IGNORED trade_id=6903080304 reason='no working buy order'
+[36154 ms] BOOK mid_price=61120.005
+[36249 ms] BOOK mid_price=61120.005
+[36354 ms] BOOK mid_price=61120.005
+[36454 ms] BOOK mid_price=61120.005
+[36555 ms] BOOK mid_price=61120.005
+[36649 ms] BOOK mid_price=61120.005
+[36847 ms] BOOK mid_price=61120.005
+[36949 ms] BOOK mid_price=61120.005
+[37033 ms] TRADE_IGNORED trade_id=6903080305 reason='no working sell order'
+[37049 ms] BOOK mid_price=61120.005
+[37050 ms] TRADE_IGNORED trade_id=6903080306 reason='no working sell order'
+[37154 ms] BOOK mid_price=61120.005
+[37252 ms] BOOK mid_price=61120.005
+[37349 ms] BOOK mid_price=61120.005
+[37455 ms] BOOK mid_price=61120.005
+[37552 ms] BOOK mid_price=61120.005
+[37635 ms] TRADE_IGNORED trade_id=6903080307 reason='no working buy order'
+[37653 ms] BOOK mid_price=61120.005
+[37749 ms] BOOK mid_price=61120.005
+[37855 ms] BOOK mid_price=61120.005
+[37948 ms] BOOK mid_price=61120.005
+[38050 ms] BOOK mid_price=61120.005
+[38150 ms] BOOK mid_price=61120.005
+[38255 ms] BOOK mid_price=61120.005
+[38349 ms] BOOK mid_price=61120.005
+[38455 ms] BOOK mid_price=61120.005
+[38550 ms] BOOK mid_price=61120.005
+[38655 ms] BOOK mid_price=61120.005
+[38755 ms] BOOK mid_price=61120.005
+[38850 ms] BOOK mid_price=61120.005
+[38949 ms] BOOK mid_price=61120.005
+[39049 ms] BOOK mid_price=61120.005
+[39154 ms] BOOK mid_price=61120.005
+[39249 ms] BOOK mid_price=61120.005
+[39355 ms] BOOK mid_price=61120.005
+[39454 ms] BOOK mid_price=61120.005
+[39554 ms] BOOK mid_price=61120.005
+[39565 ms] TRADE_IGNORED trade_id=6903080308 reason='no working sell order'
+[39565 ms] TRADE_IGNORED trade_id=6903080309 reason='no working sell order'
+[39643 ms] TRADE_IGNORED trade_id=6903080310 reason='no working buy order'
+[39644 ms] TRADE_IGNORED trade_id=6903080311 reason='no working buy order'
+[39655 ms] BOOK mid_price=61120.005
+[39755 ms] BOOK mid_price=61120.005
+[39799 ms] TRADE_IGNORED trade_id=6903080312 reason='no working buy order'
+[39799 ms] TRADE_IGNORED trade_id=6903080313 reason='no working buy order'
+[39799 ms] TRADE_IGNORED trade_id=6903080314 reason='no working buy order'
+[39799 ms] TRADE_IGNORED trade_id=6903080315 reason='no working buy order'
+[39799 ms] TRADE_IGNORED trade_id=6903080316 reason='no working buy order'
+[39799 ms] TRADE_IGNORED trade_id=6903080317 reason='no working buy order'
+[39799 ms] TRADE_IGNORED trade_id=6903080318 reason='no working buy order'
+[39799 ms] TRADE_IGNORED trade_id=6903080319 reason='no working buy order'
+[39854 ms] BOOK mid_price=61120.005
+[39894 ms] TRADE_IGNORED trade_id=6903080320 reason='no working sell order'
+[39899 ms] TRADE_IGNORED trade_id=6903080321 reason='no working sell order'
+[39899 ms] TRADE_IGNORED trade_id=6903080322 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080323 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080324 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080325 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080326 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080327 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080328 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080329 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080330 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080331 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080332 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080333 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080334 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080335 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080336 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080337 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080338 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080339 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080340 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080341 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080342 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080343 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080344 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080345 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080346 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080347 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080348 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080349 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080350 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080351 reason='no working sell order'
+[39900 ms] TRADE_IGNORED trade_id=6903080352 reason='no working sell order'
+[39905 ms] TRADE_IGNORED trade_id=6903080353 reason='no working sell order'
+[39905 ms] TRADE_IGNORED trade_id=6903080354 reason='no working sell order'
+[39905 ms] TRADE_IGNORED trade_id=6903080355 reason='no working sell order'
+[39905 ms] TRADE_IGNORED trade_id=6903080356 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080357 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080358 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080359 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080360 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080361 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080362 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080363 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080364 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080365 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080366 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080367 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080368 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080369 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080370 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080371 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080372 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080373 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080374 reason='no working sell order'
+[39906 ms] TRADE_IGNORED trade_id=6903080375 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080376 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080377 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080378 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080379 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080380 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080381 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080382 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080383 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080384 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080385 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080386 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080387 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080388 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080389 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080390 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080391 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080392 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080393 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080394 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080395 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080396 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080397 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080398 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080399 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080400 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080401 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080402 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080403 reason='no working sell order'
+[39912 ms] TRADE_IGNORED trade_id=6903080404 reason='no working sell order'
+[39913 ms] TRADE_IGNORED trade_id=6903080405 reason='no working sell order'
+[39913 ms] TRADE_IGNORED trade_id=6903080406 reason='no working sell order'
+[39917 ms] TRADE_IGNORED trade_id=6903080407 reason='no working sell order'
+[39917 ms] TRADE_IGNORED trade_id=6903080408 reason='no working sell order'
+[39917 ms] TRADE_IGNORED trade_id=6903080409 reason='no working sell order'
+[39917 ms] TRADE_IGNORED trade_id=6903080410 reason='no working sell order'
+[39917 ms] TRADE_IGNORED trade_id=6903080411 reason='no working sell order'
+[39917 ms] TRADE_IGNORED trade_id=6903080412 reason='no working sell order'
+[39917 ms] TRADE_IGNORED trade_id=6903080413 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080414 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080415 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080416 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080417 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080418 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080419 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080420 reason='no working sell order'
+[39918 ms] TRADE_IGNORED trade_id=6903080421 reason='no working sell order'
+[39926 ms] TRADE_IGNORED trade_id=6903080422 reason='no working sell order'
+[39926 ms] TRADE_IGNORED trade_id=6903080423 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080424 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080425 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080426 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080427 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080428 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080429 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080430 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080431 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080432 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080433 reason='no working sell order'
+[39927 ms] TRADE_IGNORED trade_id=6903080434 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080435 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080436 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080437 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080438 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080439 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080440 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080441 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080442 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080443 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080444 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080445 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080446 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080447 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080448 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080449 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080450 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080451 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080452 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080453 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080454 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080455 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080456 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080457 reason='no working sell order'
+[39930 ms] TRADE_IGNORED trade_id=6903080458 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080459 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080460 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080461 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080462 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080463 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080464 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080465 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080466 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080467 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080468 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080469 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080470 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080471 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080472 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080473 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080474 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080475 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080476 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080477 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080478 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080479 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080480 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080481 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080482 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080483 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080484 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080485 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080486 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080487 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080488 reason='no working sell order'
+[39931 ms] TRADE_IGNORED trade_id=6903080489 reason='no working sell order'
+[39937 ms] TRADE_IGNORED trade_id=6903080490 reason='no working sell order'
+[39938 ms] TRADE_IGNORED trade_id=6903080491 reason='no working sell order'
+[39938 ms] TRADE_IGNORED trade_id=6903080492 reason='no working sell order'
+[39938 ms] TRADE_IGNORED trade_id=6903080493 reason='no working sell order'
+[39941 ms] TRADE_IGNORED trade_id=6903080494 reason='no working buy order'
+[39942 ms] TRADE_IGNORED trade_id=6903080495 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080496 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080497 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080498 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080499 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080500 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080501 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080502 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080503 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080504 reason='no working sell order'
+[39942 ms] TRADE_IGNORED trade_id=6903080505 reason='no working sell order'
+[39953 ms] BOOK mid_price=61132.615
+[40039 ms] TRADE_IGNORED trade_id=6903080506 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080507 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080508 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080509 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080510 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080511 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080512 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080513 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080514 reason='no working sell order'
+[40050 ms] TRADE_IGNORED trade_id=6903080515 reason='no working sell order'
+[40055 ms] BOOK mid_price=61132.615
+[40061 ms] TRADE_IGNORED trade_id=6903080516 reason='no working sell order'
+[40061 ms] TRADE_IGNORED trade_id=6903080517 reason='no working sell order'
+[40061 ms] TRADE_IGNORED trade_id=6903080518 reason='no working sell order'
+[40061 ms] TRADE_IGNORED trade_id=6903080519 reason='no working sell order'
+[40061 ms] TRADE_IGNORED trade_id=6903080520 reason='no working sell order'
+[40061 ms] TRADE_IGNORED trade_id=6903080521 reason='no working sell order'
+[40062 ms] TRADE_IGNORED trade_id=6903080522 reason='no working sell order'
+[40062 ms] TRADE_IGNORED trade_id=6903080523 reason='no working sell order'
+[40062 ms] TRADE_IGNORED trade_id=6903080524 reason='no working sell order'
+[40084 ms] TRADE_IGNORED trade_id=6903080525 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080526 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080527 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080528 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080529 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080530 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080531 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080532 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080533 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080534 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080535 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080536 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080537 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080538 reason='no working sell order'
+[40121 ms] TRADE_IGNORED trade_id=6903080539 reason='no working sell order'
+[40149 ms] BOOK mid_price=61136.065
+[40241 ms] TRADE_IGNORED trade_id=6903080540 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080541 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080542 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080543 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080544 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080545 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080546 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080547 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080548 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080549 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080550 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080551 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080552 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080553 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080554 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080555 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080556 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080557 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080558 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080559 reason='no working sell order'
+[40241 ms] TRADE_IGNORED trade_id=6903080560 reason='no working sell order'
+[40242 ms] TRADE_IGNORED trade_id=6903080561 reason='no working sell order'
+[40252 ms] BOOK mid_price=61138.545
+[40285 ms] TRADE_IGNORED trade_id=6903080562 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080563 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080564 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080565 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080566 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080567 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080568 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080569 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080570 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080571 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080572 reason='no working sell order'
+[40286 ms] TRADE_IGNORED trade_id=6903080573 reason='no working sell order'
+[40301 ms] TRADE_IGNORED trade_id=6903080574 reason='no working sell order'
+[40301 ms] TRADE_IGNORED trade_id=6903080575 reason='no working sell order'
+[40301 ms] TRADE_IGNORED trade_id=6903080576 reason='no working sell order'
+[40301 ms] TRADE_IGNORED trade_id=6903080577 reason='no working sell order'
+[40301 ms] TRADE_IGNORED trade_id=6903080578 reason='no working sell order'
+[40318 ms] TRADE_IGNORED trade_id=6903080579 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080580 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080581 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080582 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080583 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080584 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080585 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080586 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080587 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080588 reason='no working sell order'
+[40319 ms] TRADE_IGNORED trade_id=6903080589 reason='no working sell order'
+[40357 ms] BOOK mid_price=61140.505
+[40450 ms] BOOK mid_price=61140.505
+[40482 ms] TRADE_IGNORED trade_id=6903080590 reason='no working sell order'
+[40549 ms] BOOK mid_price=61140.505
+[40649 ms] BOOK mid_price=61140.505
+[40748 ms] BOOK mid_price=61140.505
+[40850 ms] BOOK mid_price=61140.505
+[40948 ms] BOOK mid_price=61140.505
+[41059 ms] BOOK mid_price=61140.505
+[41154 ms] BOOK mid_price=61140.505
+[41249 ms] BOOK mid_price=61140.505
+[41349 ms] BOOK mid_price=61140.505
+[41449 ms] BOOK mid_price=61140.505
+[41484 ms] TRADE_IGNORED trade_id=6903080591 reason='no working buy order'
+[41484 ms] TRADE_IGNORED trade_id=6903080592 reason='no working buy order'
+[41547 ms] BOOK mid_price=61140.505
+[41588 ms] TRADE_IGNORED trade_id=6903080593 reason='no working buy order'
+[41647 ms] BOOK mid_price=61140.505
+[41747 ms] BOOK mid_price=61140.505
+[41849 ms] BOOK mid_price=61140.505
+[41949 ms] BOOK mid_price=61140.505
+[42053 ms] BOOK mid_price=61140.505
+[42149 ms] BOOK mid_price=61140.505
+[42249 ms] BOOK mid_price=61140.505
+[42352 ms] BOOK mid_price=61140.505
+[42452 ms] BOOK mid_price=61140.505
+[42549 ms] BOOK mid_price=61140.505
+[42649 ms] BOOK mid_price=61140.505
+[42754 ms] BOOK mid_price=61140.505
+[42856 ms] BOOK mid_price=61140.505
+[42949 ms] BOOK mid_price=61140.505
+[43049 ms] BOOK mid_price=61140.505
+[43151 ms] BOOK mid_price=61140.505
+[43249 ms] BOOK mid_price=61140.505
+[43353 ms] BOOK mid_price=61140.505
+[43449 ms] BOOK mid_price=61140.505
+[43549 ms] BOOK mid_price=61140.505
+[43650 ms] BOOK mid_price=61140.505
+[43749 ms] BOOK mid_price=61140.505
+[43854 ms] BOOK mid_price=61140.505
+[43954 ms] BOOK mid_price=61140.505
+[43971 ms] TRADE_IGNORED trade_id=6903080594 reason='no working sell order'
+[44049 ms] BOOK mid_price=61140.505
+[44151 ms] BOOK mid_price=61140.505
+[44249 ms] BOOK mid_price=61140.505
+[44355 ms] BOOK mid_price=61140.505
+[44449 ms] BOOK mid_price=61140.505
+[44554 ms] BOOK mid_price=61140.505
+[44656 ms] BOOK mid_price=61140.505
+[44750 ms] BOOK mid_price=61140.505
+[44849 ms] BOOK mid_price=61140.505
+[44954 ms] BOOK mid_price=61140.505
+[45054 ms] BOOK mid_price=61140.505
+[45129 ms] TRADE_IGNORED trade_id=6903080595 reason='no working sell order'
+[45155 ms] BOOK mid_price=61140.505
+[45248 ms] BOOK mid_price=61140.505
+[45350 ms] BOOK mid_price=61140.505
+[45449 ms] BOOK mid_price=61140.505
+[45539 ms] TRADE_IGNORED trade_id=6903080596 reason='no working buy order'
+[45551 ms] BOOK mid_price=61140.505
+[45599 ms] TRADE_IGNORED trade_id=6903080597 reason='no working buy order'
+[45650 ms] BOOK mid_price=61140.505
+[45749 ms] BOOK mid_price=61140.505
+[45825 ms] TRADE_IGNORED trade_id=6903080598 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080599 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080600 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080601 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080602 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080603 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080604 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080605 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080606 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080607 reason='no working sell order'
+[45825 ms] TRADE_IGNORED trade_id=6903080608 reason='no working sell order'
+[45826 ms] TRADE_IGNORED trade_id=6903080609 reason='no working sell order'
+[45826 ms] TRADE_IGNORED trade_id=6903080610 reason='no working sell order'
+[45835 ms] TRADE_IGNORED trade_id=6903080611 reason='no working sell order'
+[45835 ms] TRADE_IGNORED trade_id=6903080612 reason='no working sell order'
+[45835 ms] TRADE_IGNORED trade_id=6903080613 reason='no working sell order'
+[45836 ms] TRADE_IGNORED trade_id=6903080614 reason='no working sell order'
+[45836 ms] TRADE_IGNORED trade_id=6903080615 reason='no working sell order'
+[45836 ms] TRADE_IGNORED trade_id=6903080616 reason='no working sell order'
+[45836 ms] TRADE_IGNORED trade_id=6903080617 reason='no working sell order'
+[45836 ms] TRADE_IGNORED trade_id=6903080618 reason='no working sell order'
+[45836 ms] TRADE_IGNORED trade_id=6903080619 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080620 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080621 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080622 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080623 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080624 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080625 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080626 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080627 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080628 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080629 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080630 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080631 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080632 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080633 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080634 reason='no working sell order'
+[45852 ms] TRADE_IGNORED trade_id=6903080635 reason='no working sell order'
+[45853 ms] TRADE_IGNORED trade_id=6903080636 reason='no working sell order'
+[45853 ms] TRADE_IGNORED trade_id=6903080637 reason='no working sell order'
+[45853 ms] TRADE_IGNORED trade_id=6903080638 reason='no working sell order'
+[45853 ms] TRADE_IGNORED trade_id=6903080639 reason='no working sell order'
+[45853 ms] TRADE_IGNORED trade_id=6903080640 reason='no working sell order'
+[45853 ms] TRADE_IGNORED trade_id=6903080641 reason='no working sell order'
+[45853 ms] TRADE_IGNORED trade_id=6903080642 reason='no working sell order'
+[45855 ms] TRADE_IGNORED trade_id=6903080643 reason='no working sell order'
+[45855 ms] TRADE_IGNORED trade_id=6903080644 reason='no working sell order'
+[45855 ms] TRADE_IGNORED trade_id=6903080645 reason='no working sell order'
+[45855 ms] TRADE_IGNORED trade_id=6903080646 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080647 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080648 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080649 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080650 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080651 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080652 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080653 reason='no working sell order'
+[45856 ms] TRADE_IGNORED trade_id=6903080654 reason='no working sell order'
+[45856 ms] BOOK mid_price=61145.485
+[45861 ms] TRADE_IGNORED trade_id=6903080655 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080656 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080657 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080658 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080659 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080660 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080661 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080662 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080663 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080664 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080665 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080666 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080667 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080668 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080669 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080670 reason='no working sell order'
+[45862 ms] TRADE_IGNORED trade_id=6903080671 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080672 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080673 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080674 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080675 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080676 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080677 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080678 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080679 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080680 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080681 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080682 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080683 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080684 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080685 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080686 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080687 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080688 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080689 reason='no working sell order'
+[45876 ms] TRADE_IGNORED trade_id=6903080690 reason='no working sell order'
+[45890 ms] TRADE_IGNORED trade_id=6903080691 reason='no working sell order'
+[45890 ms] TRADE_IGNORED trade_id=6903080692 reason='no working sell order'
+[45890 ms] TRADE_IGNORED trade_id=6903080693 reason='no working sell order'
+[45890 ms] TRADE_IGNORED trade_id=6903080694 reason='no working sell order'
+[45890 ms] TRADE_IGNORED trade_id=6903080695 reason='no working sell order'
+[45890 ms] TRADE_IGNORED trade_id=6903080696 reason='no working sell order'
+[45890 ms] TRADE_IGNORED trade_id=6903080697 reason='no working sell order'
+[45909 ms] TRADE_IGNORED trade_id=6903080698 reason='no working sell order'
+[45910 ms] TRADE_IGNORED trade_id=6903080699 reason='no working sell order'
+[45910 ms] TRADE_IGNORED trade_id=6903080700 reason='no working sell order'
+[45910 ms] TRADE_IGNORED trade_id=6903080701 reason='no working sell order'
+[45910 ms] TRADE_IGNORED trade_id=6903080702 reason='no working sell order'
+[45934 ms] TRADE_IGNORED trade_id=6903080703 reason='no working sell order'
+[45934 ms] TRADE_IGNORED trade_id=6903080704 reason='no working sell order'
+[45934 ms] TRADE_IGNORED trade_id=6903080705 reason='no working sell order'
+[45934 ms] TRADE_IGNORED trade_id=6903080706 reason='no working sell order'
+[45934 ms] TRADE_IGNORED trade_id=6903080707 reason='no working sell order'
+[45959 ms] TRADE_IGNORED trade_id=6903080708 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080709 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080710 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080711 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080712 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080713 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080714 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080715 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080716 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080717 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080718 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080719 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080720 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080721 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080722 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080723 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080724 reason='no working sell order'
+[45960 ms] TRADE_IGNORED trade_id=6903080725 reason='no working sell order'
+[45960 ms] BOOK mid_price=61149.285
+[45962 ms] TRADE_IGNORED trade_id=6903080726 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080727 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080728 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080729 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080730 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080731 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080732 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080733 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080734 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080735 reason='no working sell order'
+[45962 ms] TRADE_IGNORED trade_id=6903080736 reason='no working sell order'
+[46003 ms] TRADE_IGNORED trade_id=6903080737 reason='no working sell order'
+[46055 ms] BOOK mid_price=61153.535
+[46150 ms] BOOK mid_price=61153.535
+[46249 ms] BOOK mid_price=61153.535
+[46349 ms] BOOK mid_price=61153.535
+[46453 ms] BOOK mid_price=61153.535
+[46549 ms] BOOK mid_price=61153.535
+[46650 ms] BOOK mid_price=61153.535
+[46755 ms] BOOK mid_price=61153.535
+[46848 ms] BOOK mid_price=61153.535
+[46908 ms] TRADE_IGNORED trade_id=6903080738 reason='no working buy order'
+[46952 ms] BOOK mid_price=61153.535
+[47054 ms] BOOK mid_price=61153.535
+[47149 ms] BOOK mid_price=61153.535
+[47249 ms] BOOK mid_price=61153.535
+[47349 ms] BOOK mid_price=61153.535
+[47464 ms] BOOK mid_price=61153.535
+[47560 ms] BOOK mid_price=61153.535
+[47655 ms] BOOK mid_price=61153.535
+[47749 ms] BOOK mid_price=61153.535
+[47850 ms] BOOK mid_price=61153.535
+[47950 ms] BOOK mid_price=61153.535
+[48051 ms] BOOK mid_price=61153.535
+[48075 ms] TRADE_IGNORED trade_id=6903080739 reason='no working sell order'
+[48150 ms] BOOK mid_price=61153.535
+[48252 ms] BOOK mid_price=61153.535
+[48348 ms] BOOK mid_price=61153.535
+[48450 ms] BOOK mid_price=61153.535
+[48549 ms] BOOK mid_price=61153.535
+[48649 ms] BOOK mid_price=61153.535
+[48720 ms] TRADE_IGNORED trade_id=6903080740 reason='no working buy order'
+[48720 ms] TRADE_IGNORED trade_id=6903080741 reason='no working buy order'
+[48720 ms] TRADE_IGNORED trade_id=6903080742 reason='no working buy order'
+[48731 ms] TRADE_IGNORED trade_id=6903080743 reason='no working buy order'
+[48732 ms] TRADE_IGNORED trade_id=6903080744 reason='no working buy order'
+[48732 ms] TRADE_IGNORED trade_id=6903080745 reason='no working buy order'
+[48732 ms] TRADE_IGNORED trade_id=6903080746 reason='no working buy order'
+[48732 ms] TRADE_IGNORED trade_id=6903080747 reason='no working buy order'
+[48732 ms] TRADE_IGNORED trade_id=6903080748 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080749 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080750 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080751 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080752 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080753 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080754 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080755 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080756 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080757 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080758 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080759 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080760 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080761 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080762 reason='no working buy order'
+[48756 ms] TRADE_IGNORED trade_id=6903080763 reason='no working buy order'
+[48756 ms] BOOK mid_price=61151.575
+[48856 ms] BOOK mid_price=61151.575
+[48952 ms] BOOK mid_price=61151.575
+[49054 ms] BOOK mid_price=61151.575
+[49152 ms] BOOK mid_price=61151.575
+[49254 ms] BOOK mid_price=61151.575
+[49355 ms] BOOK mid_price=61151.575
+[49449 ms] BOOK mid_price=61151.575
+[49555 ms] BOOK mid_price=61151.575
+[49590 ms] TRADE_IGNORED trade_id=6903080764 reason='no working buy order'
+[49590 ms] TRADE_IGNORED trade_id=6903080765 reason='no working buy order'
+[49590 ms] TRADE_IGNORED trade_id=6903080766 reason='no working buy order'
+[49609 ms] TRADE_IGNORED trade_id=6903080767 reason='no working buy order'
+[49650 ms] BOOK mid_price=61151.575
+[49756 ms] BOOK mid_price=61151.575
+[49850 ms] BOOK mid_price=61151.575
+[49953 ms] BOOK mid_price=61151.575
+[50046 ms] TRADE_IGNORED trade_id=6903080768 reason='no working sell order'
+[50052 ms] BOOK mid_price=61151.575
+[50150 ms] BOOK mid_price=61151.575
+[50252 ms] BOOK mid_price=61151.575
+[50316 ms] TRADE_IGNORED trade_id=6903080769 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080770 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080771 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080772 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080773 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080774 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080775 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080776 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080777 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080778 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080779 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080780 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080781 reason='no working buy order'
+[50316 ms] TRADE_IGNORED trade_id=6903080782 reason='no working buy order'
+[50351 ms] BOOK mid_price=61150.595
+[50390 ms] TRADE_IGNORED trade_id=6903080783 reason='no working sell order'
+[50452 ms] BOOK mid_price=61150.595
+[50553 ms] BOOK mid_price=61150.595
+[50654 ms] BOOK mid_price=61150.595
+[50716 ms] TRADE_IGNORED trade_id=6903080784 reason='no working sell order'
+[50756 ms] BOOK mid_price=61150.595
+[50855 ms] BOOK mid_price=61150.595
+[50959 ms] BOOK mid_price=61150.595
+[51056 ms] BOOK mid_price=61150.595
+[51293 ms] TRADE_IGNORED trade_id=6903080785 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080786 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080787 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080788 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080789 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080790 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080791 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080792 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080793 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080794 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080795 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080796 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080797 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080798 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080799 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080800 reason='no working buy order'
+[51293 ms] TRADE_IGNORED trade_id=6903080801 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080802 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080803 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080804 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080805 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080806 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080807 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080808 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080809 reason='no working sell order'
+[51294 ms] TRADE_IGNORED trade_id=6903080810 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080811 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080812 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080813 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080814 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080815 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080816 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080817 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080818 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080819 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080820 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080821 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080822 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080823 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080824 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080825 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080826 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080827 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080828 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080829 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080830 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080831 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080832 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080833 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080834 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080835 reason='no working buy order'
+[51294 ms] TRADE_IGNORED trade_id=6903080836 reason='no working buy order'
+[51399 ms] BOOK mid_price=61147.645
+[51401 ms] BOOK mid_price=61147.645
+[51402 ms] BOOK mid_price=61147.645
+[51449 ms] BOOK mid_price=61147.645
+[51548 ms] BOOK mid_price=61147.645
+[51648 ms] BOOK mid_price=61147.645
+[51755 ms] BOOK mid_price=61147.645
+[51849 ms] BOOK mid_price=61147.645
+[51953 ms] BOOK mid_price=61147.645
+[51994 ms] TRADE_IGNORED trade_id=6903080837 reason='no working sell order'
+[52053 ms] BOOK mid_price=61147.645
+[52149 ms] BOOK mid_price=61147.645
+[52248 ms] BOOK mid_price=61147.645
+[52348 ms] BOOK mid_price=61147.645
+[52392 ms] TRADE_IGNORED trade_id=6903080838 reason='no working buy order'
+[52392 ms] TRADE_IGNORED trade_id=6903080839 reason='no working buy order'
+[52392 ms] TRADE_IGNORED trade_id=6903080840 reason='no working buy order'
+[52392 ms] TRADE_IGNORED trade_id=6903080841 reason='no working buy order'
+[52457 ms] BOOK mid_price=61147.645
+[52550 ms] BOOK mid_price=61147.645
+[52655 ms] BOOK mid_price=61147.645
+[52755 ms] BOOK mid_price=61147.645
+[52794 ms] TRADE_IGNORED trade_id=6903080842 reason='no working buy order'
+[52848 ms] BOOK mid_price=61147.645
+[52949 ms] BOOK mid_price=61147.645
+[53050 ms] BOOK mid_price=61147.645
+[53154 ms] BOOK mid_price=61147.645
+[53250 ms] BOOK mid_price=61147.645
+[53312 ms] TRADE_IGNORED trade_id=6903080843 reason='no working sell order'
+[53312 ms] TRADE_IGNORED trade_id=6903080844 reason='no working sell order'
+[53312 ms] TRADE_IGNORED trade_id=6903080845 reason='no working sell order'
+[53312 ms] TRADE_IGNORED trade_id=6903080846 reason='no working sell order'
+[53312 ms] TRADE_IGNORED trade_id=6903080847 reason='no working sell order'
+[53312 ms] TRADE_IGNORED trade_id=6903080848 reason='no working sell order'
+[53312 ms] TRADE_IGNORED trade_id=6903080849 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080850 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080851 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080852 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080853 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080854 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080855 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080856 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080857 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080858 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080859 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080860 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080861 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080862 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080863 reason='no working sell order'
+[53313 ms] TRADE_IGNORED trade_id=6903080864 reason='no working sell order'
+[53350 ms] BOOK mid_price=61149.995
+[53369 ms] TRADE_IGNORED trade_id=6903080865 reason='no working sell order'
+[53369 ms] TRADE_IGNORED trade_id=6903080866 reason='no working sell order'
+[53448 ms] BOOK mid_price=61149.995
+[53550 ms] BOOK mid_price=61149.995
+[53561 ms] TRADE_IGNORED trade_id=6903080867 reason='no working buy order'
+[53650 ms] BOOK mid_price=61149.995
+[53748 ms] BOOK mid_price=61149.995
+[53850 ms] BOOK mid_price=61149.995
+[53950 ms] BOOK mid_price=61149.995
+[54050 ms] BOOK mid_price=61149.995
+[54150 ms] BOOK mid_price=61149.995
+[54248 ms] BOOK mid_price=61149.995
+[54351 ms] BOOK mid_price=61151.8
+[54356 ms] TRADE_IGNORED trade_id=6903080868 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080869 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080870 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080871 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080872 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080873 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080874 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080875 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080876 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080877 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080878 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080879 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080880 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080881 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080882 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080883 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080884 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080885 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080886 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080887 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080888 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080889 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080890 reason='no working sell order'
+[54357 ms] TRADE_IGNORED trade_id=6903080891 reason='no working sell order'
+[54449 ms] BOOK mid_price=61152.305
+[54550 ms] BOOK mid_price=61152.305
+[54565 ms] TRADE_IGNORED trade_id=6903080892 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080893 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080894 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080895 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080896 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080897 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080898 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080899 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080900 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080901 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080902 reason='no working sell order'
+[54565 ms] TRADE_IGNORED trade_id=6903080903 reason='no working sell order'
+[54649 ms] BOOK mid_price=61154.615
+[54749 ms] BOOK mid_price=61154.615
+[54850 ms] BOOK mid_price=61154.615
+[54850 ms] TRADE_IGNORED trade_id=6903080904 reason='no working buy order'
+[54950 ms] BOOK mid_price=61154.615
+[55060 ms] BOOK mid_price=61154.615
+[55150 ms] BOOK mid_price=61154.615
+[55250 ms] BOOK mid_price=61154.615
+[55256 ms] TRADE_IGNORED trade_id=6903080905 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080906 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080907 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080908 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080909 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080910 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080911 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080912 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080913 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080914 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080915 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080916 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080917 reason='no working sell order'
+[55262 ms] TRADE_IGNORED trade_id=6903080918 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080919 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080920 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080921 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080922 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080923 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080924 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080925 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080926 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080927 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080928 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080929 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080930 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080931 reason='no working sell order'
+[55329 ms] TRADE_IGNORED trade_id=6903080932 reason='no working sell order'
+[55350 ms] BOOK mid_price=61157.905
+[55431 ms] TRADE_IGNORED trade_id=6903080933 reason='no working sell order'
+[55431 ms] TRADE_IGNORED trade_id=6903080934 reason='no working sell order'
+[55431 ms] TRADE_IGNORED trade_id=6903080935 reason='no working sell order'
+[55431 ms] TRADE_IGNORED trade_id=6903080936 reason='no working sell order'
+[55431 ms] TRADE_IGNORED trade_id=6903080937 reason='no working sell order'
+[55431 ms] TRADE_IGNORED trade_id=6903080938 reason='no working sell order'
+[55450 ms] BOOK mid_price=61157.905
+[55493 ms] TRADE_IGNORED trade_id=6903080939 reason='no working buy order'
+[55552 ms] BOOK mid_price=61157.905
+[55651 ms] BOOK mid_price=61157.905
+[55750 ms] BOOK mid_price=61157.905
+[55855 ms] BOOK mid_price=61157.905
+[55952 ms] BOOK mid_price=61157.905
+[56049 ms] BOOK mid_price=61157.905
+[56150 ms] BOOK mid_price=61157.905
+[56255 ms] BOOK mid_price=61157.905
+[56350 ms] BOOK mid_price=61157.905
+[56452 ms] BOOK mid_price=61157.905
+[56552 ms] BOOK mid_price=61157.905
+[56654 ms] BOOK mid_price=61157.905
+[56750 ms] BOOK mid_price=61157.905
+[56850 ms] BOOK mid_price=61157.905
+[56950 ms] BOOK mid_price=61157.905
+[57050 ms] BOOK mid_price=61157.905
+[57085 ms] TRADE_IGNORED trade_id=6903080940 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080941 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080942 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080943 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080944 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080945 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080946 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080947 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080948 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080949 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080950 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080951 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080952 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080953 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080954 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080955 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080956 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080957 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080958 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080959 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080960 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080961 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080962 reason='no working sell order'
+[57085 ms] TRADE_IGNORED trade_id=6903080963 reason='no working sell order'
+[57148 ms] BOOK mid_price=61158.565
+[57250 ms] BOOK mid_price=61158.565
+[57356 ms] BOOK mid_price=61158.565
+[57455 ms] BOOK mid_price=61158.565
+[57566 ms] BOOK mid_price=61158.565
+[57567 ms] TRADE_IGNORED trade_id=6903080964 reason='no working buy order'
+[57650 ms] BOOK mid_price=61158.565
+[57750 ms] BOOK mid_price=61158.565
+[57849 ms] BOOK mid_price=61158.565
+[57950 ms] BOOK mid_price=61158.565
+[58049 ms] BOOK mid_price=61158.565
+[58149 ms] BOOK mid_price=61158.565
+[58249 ms] BOOK mid_price=61158.565
+[58355 ms] BOOK mid_price=61158.565
+[58450 ms] BOOK mid_price=61158.565
+[58550 ms] BOOK mid_price=61158.565
+[58562 ms] TRADE_IGNORED trade_id=6903080965 reason='no working sell order'
+[58562 ms] TRADE_IGNORED trade_id=6903080966 reason='no working sell order'
+[58650 ms] BOOK mid_price=61158.565
+[58755 ms] BOOK mid_price=61158.565
+[58848 ms] BOOK mid_price=61158.565
+[58880 ms] TRADE_IGNORED trade_id=6903080967 reason='no working sell order'
+[58880 ms] TRADE_IGNORED trade_id=6903080968 reason='no working sell order'
+[58949 ms] BOOK mid_price=61158.565
+[59056 ms] BOOK mid_price=61158.565
+[59080 ms] TRADE_IGNORED trade_id=6903080969 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080970 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080971 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080972 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080973 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080974 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080975 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080976 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080977 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080978 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080979 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080980 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080981 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080982 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080983 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080984 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080985 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080986 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080987 reason='no working sell order'
+[59080 ms] TRADE_IGNORED trade_id=6903080988 reason='no working sell order'
+[59081 ms] TRADE_IGNORED trade_id=6903080989 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080990 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080991 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080992 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080993 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080994 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080995 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080996 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080997 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080998 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903080999 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903081000 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903081001 reason='no working sell order'
+[59112 ms] TRADE_IGNORED trade_id=6903081002 reason='no working sell order'
+[59113 ms] TRADE_IGNORED trade_id=6903081003 reason='no working sell order'
+[59113 ms] TRADE_IGNORED trade_id=6903081004 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081005 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081006 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081007 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081008 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081009 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081010 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081011 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081012 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081013 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081014 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081015 reason='no working sell order'
+[59134 ms] TRADE_IGNORED trade_id=6903081016 reason='no working sell order'
+[59150 ms] BOOK mid_price=61163.155
+[59248 ms] BOOK mid_price=61163.155
+[59335 ms] TRADE_IGNORED trade_id=6903081017 reason='no working buy order'
+[59354 ms] BOOK mid_price=61163.155
+[59450 ms] BOOK mid_price=61163.155
+[59550 ms] BOOK mid_price=61163.155
+[59562 ms] TRADE_IGNORED trade_id=6903081018 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081019 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081020 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081021 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081022 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081023 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081024 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081025 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081026 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081027 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081028 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081029 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081030 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081031 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081032 reason='no working sell order'
+[59562 ms] TRADE_IGNORED trade_id=6903081033 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081034 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081035 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081036 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081037 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081038 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081039 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081040 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081041 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081042 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081043 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081044 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081045 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081046 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081047 reason='no working sell order'
+[59563 ms] TRADE_IGNORED trade_id=6903081048 reason='no working sell order'
+[59650 ms] BOOK mid_price=61164.425
+[59750 ms] BOOK mid_price=61164.425
+[59855 ms] BOOK mid_price=61164.425
+[59956 ms] BOOK mid_price=61164.425
+[60050 ms] BOOK mid_price=61164.425
+[60150 ms] BOOK mid_price=61164.425
+[60250 ms] BOOK mid_price=61164.425
+[60355 ms] BOOK mid_price=61164.425
+[60450 ms] BOOK mid_price=61164.425
+[60556 ms] BOOK mid_price=61164.425
+[60646 ms] TRADE_IGNORED trade_id=6903081049 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081050 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081051 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081052 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081053 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081054 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081055 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081056 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081057 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081058 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081059 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081060 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081061 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081062 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081063 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081064 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081065 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081066 reason='no working sell order'
+[60646 ms] TRADE_IGNORED trade_id=6903081067 reason='no working sell order'
+[60647 ms] TRADE_IGNORED trade_id=6903081068 reason='no working sell order'
+[60647 ms] TRADE_IGNORED trade_id=6903081069 reason='no working sell order'
+[60652 ms] TRADE_IGNORED trade_id=6903081070 reason='no working sell order'
+[60652 ms] TRADE_IGNORED trade_id=6903081071 reason='no working sell order'
+[60652 ms] TRADE_IGNORED trade_id=6903081072 reason='no working sell order'
+[60652 ms] BOOK mid_price=61165.665
+[60669 ms] TRADE_IGNORED trade_id=6903081073 reason='no working sell order'
+[60669 ms] TRADE_IGNORED trade_id=6903081074 reason='no working sell order'
+[60680 ms] TRADE_IGNORED trade_id=6903081075 reason='no working sell order'
+[60680 ms] TRADE_IGNORED trade_id=6903081076 reason='no working sell order'
+[60680 ms] TRADE_IGNORED trade_id=6903081077 reason='no working sell order'
+[60680 ms] TRADE_IGNORED trade_id=6903081078 reason='no working sell order'
+[60680 ms] TRADE_IGNORED trade_id=6903081079 reason='no working sell order'
+[60696 ms] TRADE_IGNORED trade_id=6903081080 reason='no working sell order'
+[60696 ms] TRADE_IGNORED trade_id=6903081081 reason='no working sell order'
+[60696 ms] TRADE_IGNORED trade_id=6903081082 reason='no working sell order'
+[60696 ms] TRADE_IGNORED trade_id=6903081083 reason='no working sell order'
+[60696 ms] TRADE_IGNORED trade_id=6903081084 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081085 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081086 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081087 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081088 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081089 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081090 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081091 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081092 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081093 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081094 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081095 reason='no working sell order'
+[60705 ms] TRADE_IGNORED trade_id=6903081096 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081097 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081098 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081099 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081100 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081101 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081102 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081103 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081104 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081105 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081106 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081107 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081108 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081109 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081110 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081111 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081112 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081113 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081114 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081115 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081116 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081117 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081118 reason='no working sell order'
+[60710 ms] TRADE_IGNORED trade_id=6903081119 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081120 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081121 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081122 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081123 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081124 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081125 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081126 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081127 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081128 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081129 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081130 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081131 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081132 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081133 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081134 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081135 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081136 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081137 reason='no working sell order'
+[60738 ms] TRADE_IGNORED trade_id=6903081138 reason='no working sell order'
+[60751 ms] BOOK mid_price=61168.475
+[60850 ms] BOOK mid_price=61168.475
+[60950 ms] BOOK mid_price=61168.475
+[61049 ms] BOOK mid_price=61168.475
+[61076 ms] TRADE_IGNORED trade_id=6903081139 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081140 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081141 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081142 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081143 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081144 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081145 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081146 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081147 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081148 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081149 reason='no working sell order'
+[61076 ms] TRADE_IGNORED trade_id=6903081150 reason='no working sell order'
+[61149 ms] BOOK mid_price=61168.475
+[61250 ms] BOOK mid_price=61168.475
+[61350 ms] BOOK mid_price=61168.475
+[61459 ms] BOOK mid_price=61168.475
+[61537 ms] TRADE_IGNORED trade_id=6903081151 reason='no working buy order'
+[61550 ms] BOOK mid_price=61168.475
+[61650 ms] BOOK mid_price=61168.475
+[61750 ms] BOOK mid_price=61168.475
+[61848 ms] BOOK mid_price=61168.475
+[61950 ms] BOOK mid_price=61168.475
+[62050 ms] BOOK mid_price=61168.475
+[62150 ms] BOOK mid_price=61168.475
+[62250 ms] BOOK mid_price=61168.475
+[62349 ms] BOOK mid_price=61168.475
+[62448 ms] BOOK mid_price=61168.475
+[62548 ms] BOOK mid_price=61168.475
+[62650 ms] BOOK mid_price=61168.475
+[62755 ms] BOOK mid_price=61168.475
+[62851 ms] BOOK mid_price=61168.475
+[62950 ms] BOOK mid_price=61168.475
+[63055 ms] BOOK mid_price=61168.475
+[63140 ms] TRADE_IGNORED trade_id=6903081152 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081153 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081154 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081155 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081156 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081157 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081158 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081159 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081160 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081161 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081162 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081163 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081164 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081165 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081166 reason='no working sell order'
+[63140 ms] TRADE_IGNORED trade_id=6903081167 reason='no working sell order'
+[63141 ms] TRADE_IGNORED trade_id=6903081168 reason='no working sell order'
+[63141 ms] TRADE_IGNORED trade_id=6903081169 reason='no working sell order'
+[63141 ms] TRADE_IGNORED trade_id=6903081170 reason='no working sell order'
+[63141 ms] TRADE_IGNORED trade_id=6903081171 reason='no working sell order'
+[63141 ms] TRADE_IGNORED trade_id=6903081172 reason='no working sell order'
+[63141 ms] TRADE_IGNORED trade_id=6903081173 reason='no working sell order'
+[63141 ms] TRADE_IGNORED trade_id=6903081174 reason='no working sell order'
+[63150 ms] BOOK mid_price=61168.665
+[63250 ms] BOOK mid_price=61168.665
+[63350 ms] BOOK mid_price=61168.665
+[63454 ms] BOOK mid_price=61168.665
+[63480 ms] TRADE_IGNORED trade_id=6903081175 reason='no working buy order'
+[63549 ms] BOOK mid_price=61168.665
+[63651 ms] BOOK mid_price=61168.665
+[63756 ms] BOOK mid_price=61168.665
+[63855 ms] BOOK mid_price=61168.665
+[63948 ms] BOOK mid_price=61168.665
+[63975 ms] TRADE_IGNORED trade_id=6903081176 reason='no working sell order'
+[63986 ms] TRADE_IGNORED trade_id=6903081177 reason='no working sell order'
+[63986 ms] TRADE_IGNORED trade_id=6903081178 reason='no working sell order'
+[63986 ms] TRADE_IGNORED trade_id=6903081179 reason='no working sell order'
+[63986 ms] TRADE_IGNORED trade_id=6903081180 reason='no working sell order'
+[63986 ms] TRADE_IGNORED trade_id=6903081181 reason='no working sell order'
+[63986 ms] TRADE_IGNORED trade_id=6903081182 reason='no working sell order'
+[63986 ms] TRADE_IGNORED trade_id=6903081183 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081184 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081185 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081186 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081187 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081188 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081189 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081190 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081191 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081192 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081193 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081194 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081195 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081196 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081197 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081198 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081199 reason='no working sell order'
+[63987 ms] TRADE_IGNORED trade_id=6903081200 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081201 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081202 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081203 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081204 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081205 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081206 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081207 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081208 reason='no working sell order'
+[64035 ms] TRADE_IGNORED trade_id=6903081209 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081210 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081211 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081212 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081213 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081214 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081215 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081216 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081217 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081218 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081219 reason='no working sell order'
+[64036 ms] TRADE_IGNORED trade_id=6903081220 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081221 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081222 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081223 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081224 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081225 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081226 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081227 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081228 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081229 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081230 reason='no working sell order'
+[64040 ms] TRADE_IGNORED trade_id=6903081231 reason='no working sell order'
+[64050 ms] BOOK mid_price=61172.555
+[64150 ms] BOOK mid_price=61172.555
+[64174 ms] TRADE_IGNORED trade_id=6903081232 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081233 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081234 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081235 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081236 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081237 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081238 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081239 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081240 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081241 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081242 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081243 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081244 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081245 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081246 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081247 reason='no working sell order'
+[64174 ms] TRADE_IGNORED trade_id=6903081248 reason='no working sell order'
+[64249 ms] BOOK mid_price=61172.975
+[64310 ms] TRADE_IGNORED trade_id=6903081249 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081250 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081251 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081252 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081253 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081254 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081255 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081256 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081257 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081258 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081259 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081260 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081261 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081262 reason='no working sell order'
+[64311 ms] TRADE_IGNORED trade_id=6903081263 reason='no working sell order'
+[64340 ms] TRADE_IGNORED trade_id=6903081264 reason='no working buy order'
+[64347 ms] TRADE_IGNORED trade_id=6903081265 reason='no working sell order'
+[64347 ms] TRADE_IGNORED trade_id=6903081266 reason='no working sell order'
+[64347 ms] TRADE_IGNORED trade_id=6903081267 reason='no working sell order'
+[64347 ms] TRADE_IGNORED trade_id=6903081268 reason='no working sell order'
+[64347 ms] TRADE_IGNORED trade_id=6903081269 reason='no working sell order'
+[64347 ms] TRADE_IGNORED trade_id=6903081270 reason='no working sell order'
+[64347 ms] TRADE_IGNORED trade_id=6903081271 reason='no working sell order'
+[64347 ms] TRADE_IGNORED trade_id=6903081272 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081273 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081274 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081275 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081276 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081277 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081278 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081279 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081280 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081281 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081282 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081283 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081284 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081285 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081286 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081287 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081288 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081289 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081290 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081291 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081292 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081293 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081294 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081295 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081296 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081297 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081298 reason='no working sell order'
+[64348 ms] TRADE_IGNORED trade_id=6903081299 reason='no working sell order'
+[64352 ms] BOOK mid_price=61175.875
+[64450 ms] BOOK mid_price=61175.875
+[64548 ms] BOOK mid_price=61175.875
+[64656 ms] BOOK mid_price=61175.875
+[64755 ms] BOOK mid_price=61175.875
+[64848 ms] BOOK mid_price=61175.875
+[64960 ms] BOOK mid_price=61175.875
+SUMMARY btc=0.5 usdt=34225 reserved_btc=0 reserved_usdt=0 fees_usdt=0 net_pnl_usdt=0.92 excess_pnl_usdt=0.00 pending_markouts=0
