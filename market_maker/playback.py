@@ -501,6 +501,8 @@ def create_app(project_root: Path = PROJECT) -> FastAPI:
     app.mount("/assets", StaticFiles(directory=Path(__file__).with_name("static")), name="playback-assets")
 
     @app.get("/", include_in_schema=False)
+    @app.get("/api", include_in_schema=False)
+    @app.get("/api/index.py", include_in_schema=False)
     async def terminal() -> FileResponse:
         return FileResponse(Path(__file__).with_name("playback.html"), media_type="text/html")
 
