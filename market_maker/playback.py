@@ -665,7 +665,9 @@ app = create_app()
 def main() -> None:
     import uvicorn
 
-    uvicorn.run(app, host="127.0.0.1", port=DEFAULT_PORT)
+    host = os.environ.get("HOST", "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1")
+    port = int(os.environ.get("PORT", str(DEFAULT_PORT)))
+    uvicorn.run(app, host=host, port=port)
 
 
 if __name__ == "__main__":
